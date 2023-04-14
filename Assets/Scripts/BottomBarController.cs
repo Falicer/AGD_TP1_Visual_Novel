@@ -9,29 +9,38 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI personNameText;
 
     private int sentenceIndex = -1;
-    public StoryScene currentScene;
+    private StoryScene currentScene;
     private State state = State.COMPLETED;
 
-    private enum State{
+    private enum State
+    {
 
         PLAYING, COMPLETED
     }
 
+    public void PlayScene(StoryScene scene)
+    {
+
+        currentScene = scene;
+        sentenceIndex = -1;
+        PlayNextSentence();
+    }
+
     // Start is called before the first frame update
-    void Start()
+     public void PlayNextSentence()
     {
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool IsCompleted()
     {
-        
+        return state == State.COMPLETED;
     }
 
-    private IEnumerator TypeText(string text){
+    private IEnumerator TypeText(string text)
+    {
 
         barText.text = "";
         state = State.PLAYING;
@@ -41,7 +50,8 @@ public class BottomBarController : MonoBehaviour
             
             barText.text += text[wordIndex];
             yield return new WaitForSeconds(0.05f);
-            if(++wordIndex == text.Length){
+            if(++wordIndex == text.Length)
+            {
 
                 state = State.COMPLETED;
                 break;
