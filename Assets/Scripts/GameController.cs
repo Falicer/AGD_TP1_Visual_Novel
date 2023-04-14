@@ -22,7 +22,11 @@ public class GameController : MonoBehaviour
 
             if(bottomBar.IsCompleted())
             {
-
+                if(bottomBar.IsLastSentence())
+                {
+                    currentScene = currentScene.nextScene;
+                    bottomBar.PlayScene(currentScene);
+                }
                 bottomBar.PlayNextSentence();
             }
         }
