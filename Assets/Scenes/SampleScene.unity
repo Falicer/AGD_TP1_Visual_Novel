@@ -292,6 +292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barText: {fileID: 1353808568}
   personNameText: {fileID: 1825710633}
+  sentenceIndex: -1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

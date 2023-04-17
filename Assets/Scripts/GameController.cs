@@ -18,12 +18,10 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-
             if(bottomBar.IsCompleted())
-            {
+            { 
                 if(bottomBar.IsLastSentence())
                 {
                     currentScene = currentScene.nextScene;
@@ -31,6 +29,7 @@ public class GameController : MonoBehaviour
                     BackgroundController.SwitchImage(currentScene.background);
                 }
                 bottomBar.PlayNextSentence();
+                
             }
         }
     }
