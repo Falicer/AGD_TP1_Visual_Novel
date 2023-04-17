@@ -6,11 +6,13 @@ public class GameController : MonoBehaviour
 {
     public StoryScene currentScene;
     public BottomBarController bottomBar;
+    public BackgroundController BackgroundController;
 
     // Start is called before the first frame update
     void Start()
     {
         bottomBar.PlayScene(currentScene);
+        BackgroundController.SetImage(currentScene.background);
     }
 
     // Update is called once per frame
@@ -26,6 +28,7 @@ public class GameController : MonoBehaviour
                 {
                     currentScene = currentScene.nextScene;
                     bottomBar.PlayScene(currentScene);
+                    BackgroundController.SwitchImage(currentScene.background);
                 }
                 bottomBar.PlayNextSentence();
             }

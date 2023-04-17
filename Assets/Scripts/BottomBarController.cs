@@ -26,11 +26,6 @@ public class BottomBarController : MonoBehaviour
         PlayNextSentence();
     }
 
-    public bool IsLastSentence()
-    {
-        return sentenceIndex + 1 == currentScene.sentences.Count;
-    }
-
     // Start is called before the first frame update
      public void PlayNextSentence()
     {
@@ -42,6 +37,11 @@ public class BottomBarController : MonoBehaviour
     public bool IsCompleted()
     {
         return state == State.COMPLETED;
+    }
+
+    public bool IsLastSentence()
+    {
+        return sentenceIndex + 1 == currentScene.sentences.Count;
     }
 
     private IEnumerator TypeText(string text)
