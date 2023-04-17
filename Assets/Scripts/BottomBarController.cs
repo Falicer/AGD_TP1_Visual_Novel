@@ -8,13 +8,40 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
 
-    public int sentenceIndex = -1;
+    private int sentenceIndex = -1;
     private StoryScene currentScene;
     private State state = State.COMPLETED;
+    private Animator animator;
+    private bool isHidden = false;
 
     private enum State
     {
         PLAYING, COMPLETED
+    }
+
+    private void start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    public void Hide()
+    {
+        if(!isHidden)
+        {
+            animator.SetTrigger("Hide");
+            isHidden = true;
+        }
+    }
+
+    public void Show()
+    {
+        animator.SetTrigger("Show");
+        isHidden = false;
+    }
+
+    public void ClearText()
+    {
+        //barText.text.
     }
 
     public void PlayScene(StoryScene scene)
