@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 984
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 74
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 554.6667
     width: 1306
     height: 379.3333
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 75
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 76
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -268,14 +268,14 @@ MonoBehaviour:
     y: 0
     width: 988
     height: 554.6667
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
+  m_Selected: 1
   m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
@@ -311,14 +311,14 @@ MonoBehaviour:
     - {fileID: -2169624796451460682, guid: 9efbaa345f03d2b4d82e2d48a7e70fa2, type: 2}
     - {fileID: -4001227374208321408, guid: e89251a272e291b4ea2294e9f5af784b, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.53323084
+    - e00: 0.5105413
       e01: 0
       e02: 0
-      e03: 98.49396
+      e03: 101.79201
       e10: 0
-      e11: 0.53323084
+      e11: 0.5105413
       e12: 0
-      e13: 29.303024
+      e13: 193.7265
       e20: 0
       e21: 0
       e22: 1
@@ -334,7 +334,7 @@ MonoBehaviour:
       e10: 0
       e11: 0.6287719
       e12: 0
-      e13: 193.88773
+      e13: 212.75089
       e20: 0
       e21: 0
       e22: 1
@@ -401,22 +401,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Story/Choose
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Story/Choose
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Raekwon\Desktop\AGD_TP1_Visual_Novel
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c6b0000
-    m_LastClickedID: 27500
-    m_ExpandedIDs: 000000004e6b00006e6b0000706b000000ca9a3b
+    m_SelectedIDs: 9c6b0000
+    m_LastClickedID: 27548
+    m_ExpandedIDs: 00000000846b0000866b0000886b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -432,7 +432,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -444,7 +444,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e6b0000
+    m_ExpandedIDs: 00000000846b0000866b0000886b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,8 +469,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1664ffff
-    m_LastClickedInstanceID: -39914
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -574,9 +574,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1664ffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff306900004a69000050690000
+      m_SelectedIDs: 5c690000
+      m_LastClickedID: 26972
+      m_ExpandedIDs: 2afbffff526900005c690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -881,9 +881,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 476.1972, y: 283.05396, z: 3.3475707}
+    m_Target: {x: 480.24313, y: 258.21637, z: 4.168724}
     speed: 2
-    m_Value: {x: 476.1972, y: 283.05396, z: 3.3475707}
+    m_Value: {x: 480.24313, y: 258.21637, z: 4.168724}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -934,9 +934,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 319.77753
+    m_Target: 266.3733
     speed: 2
-    m_Value: 319.77753
+    m_Value: 266.3733
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1034,7 +1034,7 @@ MonoBehaviour:
       y: 21
       width: 986
       height: 512.6667
-    m_Scale: {x: 1.4272289, y: 1.4272289}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 493, y: 256.33334}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1042,10 +1042,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -345.42462
-      y: -179.60213
-      width: 690.84924
-      height: 359.20425
+      x: -493
+      y: -256.33334
+      width: 986
+      height: 512.6667
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1479, y: 800.5}

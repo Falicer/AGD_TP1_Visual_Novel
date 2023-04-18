@@ -20,4 +20,4 @@ MonoBehaviour:
   - text: BoogaWooga
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
   background: {fileID: 21300000, guid: 8b76922d0553e4e4988965715f6ee244, type: 3}
-  nextScene: {fileID: 11400000, guid: ec5741f239d1daa43a7e6e0362bc986c, type: 2}
+  nextScene: {fileID: 11400000, guid: b8170c6379622994882986326daf162c, type: 2}
