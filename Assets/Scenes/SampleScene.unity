@@ -293,6 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barText: {fileID: 1353808568}
   personNameText: {fileID: 1825710633}
+  animator: {fileID: 463456719}
 --- !u!95 &463456719
 Animator:
   serializedVersion: 5

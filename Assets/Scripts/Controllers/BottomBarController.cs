@@ -42,6 +42,7 @@ public class BottomBarController : MonoBehaviour
     public void ClearText()
     {
         barText.text = "";
+        personNameText.text = "";
     }
 
     public void PlayScene(StoryScene scene)
