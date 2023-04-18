@@ -11,7 +11,7 @@ public class BottomBarController : MonoBehaviour
     private int sentenceIndex = -1;
     private StoryScene currentScene;
     private State state = State.COMPLETED;
-    private Animator animator;
+    public Animator animator;
     private bool isHidden = false;
 
     private enum State
@@ -41,7 +41,7 @@ public class BottomBarController : MonoBehaviour
 
     public void ClearText()
     {
-        //barText.text.
+        barText.text = "";
     }
 
     public void PlayScene(StoryScene scene)

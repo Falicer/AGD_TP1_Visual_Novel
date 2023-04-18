@@ -27,15 +27,11 @@ public class GameController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            if(bottomBar.IsCompleted())
+            if(state == State.IDLE && bottomBar.IsCompleted())
             { 
                 if(bottomBar.IsLastSentence())
                 {
-                    currentScene = currentScene.nextScene;
-                    bottomBar.PlayScene(currentScene);
-                    BackgroundController.SwitchImage(currentScene.background);
-
-                    
+                    PlayScene(currentScene.nextScene);   
                 }
                 else
                 {

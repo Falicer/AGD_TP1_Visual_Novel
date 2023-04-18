@@ -18,3 +18,8 @@ public class StoryScene : ScriptableObject
     }
 
 }
+
+// Change StoryScene to GameScene after 11:24
+public class GameScene : ScriptableObject {
+    
+}
