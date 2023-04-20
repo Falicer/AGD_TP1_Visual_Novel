@@ -15,15 +15,33 @@ MonoBehaviour:
   sentences:
   - text: Lonely Roooaaaadsss
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 0db6f86f9b605564a8e07b2dfe232e1c, type: 3}
+    sound: {fileID: 0}
   - text: TAKE ME HOOOOOMEEEE
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: TO THE PLAAAACCEEE
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: WHERE I BELOOOOOOOOOOOONNNGG
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: WEST VIRGINIAAAAAAAAAA
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: MOUNTAIN MAMAAAAA
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: fd9b469bb4d0fac4d839a422209cfe11, type: 3}
   nextScene: {fileID: 11400000, guid: e86f6124f6854cf428e6f82b4d7e64ce, type: 2}
