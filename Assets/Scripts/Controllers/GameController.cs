@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour
 {
     public GameScene currentScene;
     public BottomBarController bottomBar;
-    public BackgroundController backgroundController;
+    public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
 
     private State state = State.IDLE;
@@ -30,9 +30,9 @@ public class GameController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            if(state == State.IDLE && bottomBar.IsCompleted())
+            if (state == State.IDLE && bottomBar.IsCompleted())
             {
-                if(bottomBar.IsLastSentence())
+                if (bottomBar.IsLastSentence())
                 {
                     PlayScene((currentScene as StoryScene).nextScene);
                 }

@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: George
   textColor: {r: 0.73613757, g: 0.07058823, b: 1, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 158f4d74cf78ca34d82e2d2c9b0b906e, type: 3}
+  - {fileID: 21300000, guid: 47471fcdd9387924f8ce2f6e39b1cda9, type: 3}
+  - {fileID: 21300000, guid: d70f656b1d425fb489e1977b02f39f5e, type: 3}
+  - {fileID: 21300000, guid: 29db9d530417af14ca2e30498497e217, type: 3}
+  prefab: {fileID: -8490463304095453154, guid: 51c7ac80f1571f540983a6c96bbf076a, type: 3}

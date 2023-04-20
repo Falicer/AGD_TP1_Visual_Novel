@@ -15,9 +15,27 @@ MonoBehaviour:
   sentences:
   - text: Hello World
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 400, y: 0}
+      moveSpeed: 0
   - text: Hello George!
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
   - text: Suffering
     speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 400, y: 0}
+      moveSpeed: 0
   background: {fileID: 21300000, guid: 72cd9b026a6670643b19917f0d687881, type: 3}
   nextScene: {fileID: 11400000, guid: 5acf599779950e54dbd7c8a7056f53c7, type: 2}
