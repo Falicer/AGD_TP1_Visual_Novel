@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Sleep all day
-    nextScene: {fileID: 11400000, guid: 6992d18f9a740f442998fa1d806534e5, type: 2}
+    nextScene: {fileID: 11400000, guid: 5f1e95c63301c234ab2146204fceb36d, type: 2}
   - text: Do nothing
     nextScene: {fileID: 11400000, guid: e86f6124f6854cf428e6f82b4d7e64ce, type: 2}
   - text: Do the Dab
