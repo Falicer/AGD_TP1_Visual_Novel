@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
   m_Name: answer collect tester
   m_EditorClassIdentifier: 
-  labels: []
+  labels:
+  - text: Just Testing
+    nextScene: {fileID: 11400000, guid: ec5741f239d1daa43a7e6e0362bc986c, type: 2}
+  - text: Testing even More
+    nextScene: {fileID: 11400000, guid: 6992d18f9a740f442998fa1d806534e5, type: 2}
