@@ -31,17 +31,31 @@ public class ChooseController : MonoBehaviour
             }
 
             newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(index, scene.labels.Count));
+
         }
 
         Vector2 size = rectTransform.sizeDelta;
         size.y = (scene.labels.Count + 2) * labelHeight;
         rectTransform.sizeDelta = size;
+        
     }
 
-    public void PerformChoose(StoryScene scene)
+    public void PerformChoose(StoryScene scene, string selectedAnswer)
     {
         gameController.PlayScene(scene);
         animator.SetTrigger("Hide");
+
+        // For testing purposes for the answers
+        gameController.ClearLog();
+        if(!gameController.answerList.Contains(selectedAnswer))
+        {
+            gameController.answerList.Add(selectedAnswer);
+        }
+
+        foreach (var answer in gameController.answerList)
+        {
+            Debug.Log(answer.ToString());
+        }
     }
 
     private float CalculateLabelPosition(int labelIndex, int labelCount)

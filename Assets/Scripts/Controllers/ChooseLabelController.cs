@@ -9,6 +9,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     private StoryScene scene;
     private TextMeshProUGUI textMesh;
     private ChooseController controller;
+    public string selectedAnswer;
 
     void Awake()
     {
@@ -30,11 +31,12 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
         Vector3 position = textMesh.rectTransform.localPosition;
         position.y = y;
         textMesh.rectTransform.localPosition = position;
+        selectedAnswer = label.text;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        controller.PerformChoose(scene);
+        controller.PerformChoose(scene, selectedAnswer);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

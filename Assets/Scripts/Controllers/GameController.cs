@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using System.Reflection;
 
 public class GameController : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class GameController : MonoBehaviour
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
     public AudioController audioController;
+    public List<string> answerList = new List<string>();
 
     private State state = State.IDLE;
 
@@ -89,5 +92,13 @@ public class GameController : MonoBehaviour
     private void PlayAudio(StoryScene.Sentence sentence)
     {
         audioController.PlayAudio(sentence.music, sentence.sound);
+    }
+
+    public void ClearLog()
+    {
+    var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+    var type = assembly.GetType("UnityEditor.LogEntries");
+    var method = type.GetMethod("Clear");
+    method.Invoke(new object(), null);
     }
 }
