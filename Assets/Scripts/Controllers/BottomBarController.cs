@@ -7,6 +7,7 @@ public class BottomBarController : MonoBehaviour
 {
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
+    // public AudioSource voicePlayer;
 
     private int sentenceIndex = -1;
     private StoryScene currentScene;
@@ -19,7 +20,6 @@ public class BottomBarController : MonoBehaviour
 
     private Coroutine typingCoroutine;
     private float speedFactor = 1f;
-
 
     private enum State
     {
@@ -44,7 +44,7 @@ public class BottomBarController : MonoBehaviour
 
     public void Hide()
     {
-        if(!isHidden)
+        if (!isHidden)
         {
             animator.SetTrigger("Hide");
             isHidden = true;
@@ -122,10 +122,20 @@ public class BottomBarController : MonoBehaviour
 
     private void PlaySentence(bool isAnimated = true)
     {
+        StoryScene.Sentence sentence = currentScene.sentences[sentenceIndex];
         speedFactor = 1f;
-        typingCoroutine = StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
-        personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-        personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        typingCoroutine = StartCoroutine(TypeText(sentence.text));
+        personNameText.text = sentence.speaker.speakerName;
+        personNameText.color = sentence.speaker.textColor;
+        // if (sentence.audio)
+        // {
+        //     voicePlayer.clip = sentence.audio;
+        //     voicePlayer.Play();
+        // }
+        // else
+        // {
+        //     voicePlayer.Stop();
+        // }
         ActSpeakers(isAnimated);
     }
 
@@ -135,7 +145,7 @@ public class BottomBarController : MonoBehaviour
         state = State.PLAYING;
         int wordIndex = 0;
 
-        while(state != State.COMPLETED)
+        while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
             yield return new WaitForSeconds(speedFactor * 0.05f);
@@ -158,7 +168,7 @@ public class BottomBarController : MonoBehaviour
 
     private void ActSpeaker(StoryScene.Sentence.Action action, bool isAnimated = true)
     {
-        SpriteController controller = null;
+        SpriteController controller;
         if (!sprites.ContainsKey(action.speaker))
         {
             controller = Instantiate(action.speaker.prefab.gameObject, spritesPrefab.transform)
@@ -176,7 +186,7 @@ public class BottomBarController : MonoBehaviour
                 controller.Show(action.coords, isAnimated);
                 return;
             case StoryScene.Sentence.Action.Type.MOVE:
-                controller.Move(action.coords, action.moveSpeed);
+                controller.Move(action.coords, action.moveSpeed, isAnimated);
                 break;
             case StoryScene.Sentence.Action.Type.DISAPPEAR:
                 controller.Hide(isAnimated);

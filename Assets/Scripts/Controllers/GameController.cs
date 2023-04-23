@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Reflection;
 
@@ -11,13 +12,16 @@ public class GameController : MonoBehaviour
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
     public AudioController audioController;
-    public List<string> answerList = new List<string>();
 
     public DataHolder data;
 
+    public string menuScene;
+
+    public List<string> answerList = new List<string>();
+
     private State state = State.IDLE;
 
-    private List<StoryScene> history;
+    private List<StoryScene> history = new List<StoryScene>();
 
     private enum State
     {
@@ -26,7 +30,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        if(SaveManager.IsGameSaved())
+        if (SaveManager.IsGameSaved())
         {
             SaveData data = SaveManager.LoadGame();
             data.prevScenes.ForEach(scene =>
@@ -37,7 +41,6 @@ public class GameController : MonoBehaviour
             history.RemoveAt(history.Count - 1);
             bottomBar.SetSentenceIndex(data.sentence - 1);
         }
-
         if (currentScene is StoryScene)
         {
             StoryScene storyScene = currentScene as StoryScene;
@@ -50,10 +53,8 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        if(state == State.IDLE)
-        {
-
-            if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (state == State.IDLE) {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 if (bottomBar.IsCompleted())
                 {
@@ -65,7 +66,8 @@ public class GameController : MonoBehaviour
                     else
                     {
                         bottomBar.PlayNextSentence();
-                        PlayAudio((currentScene as StoryScene).sentences[bottomBar.GetSentenceIndex()]);
+                        PlayAudio((currentScene as StoryScene)
+                            .sentences[bottomBar.GetSentenceIndex()]);
                     }
                 }
                 else
@@ -73,10 +75,9 @@ public class GameController : MonoBehaviour
                     bottomBar.SpeedUp();
                 }
             }
-
-            if(Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(1))
             {
-                if(bottomBar.IsFirstSentence())
+                if (bottomBar.IsFirstSentence())
                 {
                     if(history.Count > 1)
                     {
@@ -93,9 +94,7 @@ public class GameController : MonoBehaviour
                     bottomBar.GoBack();
                 }
             }
-
-            // Saves games on escape button
-            if(Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
                 List<int> historyIndicies = new List<int>();
                 history.ForEach(scene =>
@@ -108,6 +107,7 @@ public class GameController : MonoBehaviour
                     prevScenes = historyIndicies
                 };
                 SaveManager.SaveGame(data);
+                SceneManager.LoadScene(menuScene);
             }
         }
     }
@@ -121,24 +121,23 @@ public class GameController : MonoBehaviour
     {
         state = State.ANIMATE;
         currentScene = scene;
-        if(isAnimated)
+        if (isAnimated)
         {
             bottomBar.Hide();
             yield return new WaitForSeconds(1f);
         }
-        
         if (scene is StoryScene)
         {
             StoryScene storyScene = scene as StoryScene;
             history.Add(storyScene);
             PlayAudio(storyScene.sentences[sentenceIndex + 1]);
-            if(isAnimated)
+            if (isAnimated)
             {
-            backgroundController.SwitchImage(storyScene.background);
-            yield return new WaitForSeconds(1f);
-            bottomBar.ClearText();
-            bottomBar.Show();
-            yield return new WaitForSeconds(1f);
+                backgroundController.SwitchImage(storyScene.background);
+                yield return new WaitForSeconds(1f);
+                bottomBar.ClearText();
+                bottomBar.Show();
+                yield return new WaitForSeconds(1f);
             }
             else
             {
@@ -162,9 +161,9 @@ public class GameController : MonoBehaviour
 
     public void ClearLog()
     {
-    var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
-    var type = assembly.GetType("UnityEditor.LogEntries");
-    var method = type.GetMethod("Clear");
-    method.Invoke(new object(), null);
+        var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+        var type = assembly.GetType("UnityEditor.LogEntries");
+        var method = type.GetMethod("Clear");
+        method.Invoke(new object(), null);
     }
 }

@@ -24,4 +24,8 @@ public class SaveManager : MonoBehaviour
         return PlayerPrefs.HasKey(SAVED_GAME);
     }
 
+    public static void ClearSavedGame()
+    {
+        PlayerPrefs.DeleteKey(SAVED_GAME);
+    }
 }

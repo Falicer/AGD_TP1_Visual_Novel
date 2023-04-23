@@ -1017,6 +1017,8 @@ MonoBehaviour:
   backgroundController: {fileID: 930566295}
   chooseController: {fileID: 723288226}
   audioController: {fileID: 359512257}
+  data: {fileID: 11400000, guid: f36e195adc517854ea093fe112368a20, type: 2}
+  menuScene: Main menu
   answerList: []
 --- !u!1 &1070229220
 GameObject:
