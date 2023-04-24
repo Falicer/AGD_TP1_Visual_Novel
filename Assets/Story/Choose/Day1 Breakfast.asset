@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Scrambled eggs
-    nextScene: {fileID: 11400000, guid: b8170c6379622994882986326daf162c, type: 2}
+    nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
   - text: Oatmeal
-    nextScene: {fileID: 11400000, guid: 6992d18f9a740f442998fa1d806534e5, type: 2}
+    nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
   - text: Cereal
-    nextScene: {fileID: 11400000, guid: 5f1e95c63301c234ab2146204fceb36d, type: 2}
+    nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
