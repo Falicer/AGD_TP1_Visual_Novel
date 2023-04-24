@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4b0b58573b2804ea7536fd14f93860, type: 3}
+  m_Name: Narrator
+  m_EditorClassIdentifier: 
+  speakerName: Narrator
+  textColor: {r: 0.9811321, g: 0.3023614, b: 0.64924794, a: 0}
+  sprites: []
+  prefab: {fileID: -8490463304095453154, guid: 40e7c4af0b9539745b277b0689f453dc, type: 3}
