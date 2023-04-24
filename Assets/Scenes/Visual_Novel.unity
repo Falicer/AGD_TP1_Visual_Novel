@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 463456718}
   - component: {fileID: 463456719}
   m_Layer: 5
-  m_Name: BottomBar-1
+  m_Name: BottomBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1015,6 +1015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScene: {fileID: 11400000, guid: ec5741f239d1daa43a7e6e0362bc986c, type: 2}
   bottomBar: {fileID: 463456718}
+  bottomBar2: {fileID: 1840885363}
   backgroundController: {fileID: 930566295}
   chooseController: {fileID: 723288226}
   audioController: {fileID: 359512257}
@@ -1846,10 +1847,10 @@ GameObject:
   - component: {fileID: 1840885358}
   - component: {fileID: 1840885362}
   - component: {fileID: 1840885361}
-  - component: {fileID: 1840885360}
   - component: {fileID: 1840885359}
+  - component: {fileID: 1840885363}
   m_Layer: 5
-  m_Name: BottomBar-2
+  m_Name: BottomBar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1898,21 +1899,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1840885360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840885357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6607a316f7fe0a14ab5bdaf2a44cfdb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  barText: {fileID: 1158331242}
-  personNameText: {fileID: 968086317}
-  spritesPrefab: {fileID: 694059858}
 --- !u!114 &1840885361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1951,3 +1937,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840885357}
   m_CullTransparentMesh: 1
+--- !u!114 &1840885363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840885357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6fd5a8a783b7448a466d5c4de19f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barText: {fileID: 1158331242}
+  personNameText: {fileID: 968086317}
+  spritesPrefab: {fileID: 694059858}

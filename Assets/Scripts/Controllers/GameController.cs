@@ -193,7 +193,7 @@ public class GameController : MonoBehaviour
         if(isAnimated)
         {
             if(BottomBar2.activeInHierarchy == true){
-                bottomBar2.Hide();
+                bottomBar.Hide2();
             }else{
                 bottomBar.Hide();
             }
@@ -211,15 +211,17 @@ public class GameController : MonoBehaviour
 
                 if(storyScene.background.ToString().Contains("ChatRoom_Filled"))
                 {
-                    bottomBar.ClearText();
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
-                    bottomBar2.Show();
+                    bottomBar2.ClearText();
+                    bottomBar.ClearText();
+                    bottomBar.Show2();
                 }
                 else{
-                    bottomBar2.ClearText();
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(true);
+                    bottomBar2.ClearText();
+                    bottomBar.ClearText();
                     bottomBar.Show();
                 }
                 yield return new WaitForSeconds(1f);
