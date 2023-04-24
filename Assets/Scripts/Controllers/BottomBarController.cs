@@ -124,6 +124,10 @@ public class BottomBarController : MonoBehaviour
     {
         StoryScene.Sentence sentence = currentScene.sentences[sentenceIndex];
         speedFactor = 1f;
+        if(sentence.text.Contains("<sprite="))
+        {
+            speedFactor = 0.01f;
+        }
         typingCoroutine = StartCoroutine(TypeText(sentence.text));
         personNameText.text = sentence.speaker.speakerName;
         personNameText.color = sentence.speaker.textColor;
