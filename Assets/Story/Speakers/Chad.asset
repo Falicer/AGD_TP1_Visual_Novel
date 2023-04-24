@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chad
   m_EditorClassIdentifier: 
   speakerName: Chad
-  textColor: {r: 0, g: 0.4112711, b: 1, a: 0}
+  textColor: {r: 0.39999998, g: 0.6470588, b: 1, a: 0}
   sprites:
   - {fileID: 21300000, guid: 70df23ccd4886e6468c23f847b68a0c3, type: 3}
   - {fileID: 21300000, guid: 21376e563c1c4bd4781c0181ca5ee823, type: 3}

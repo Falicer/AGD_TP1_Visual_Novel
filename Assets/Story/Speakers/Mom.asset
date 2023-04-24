@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mom
   m_EditorClassIdentifier: 
   speakerName: Mom
-  textColor: {r: 1, g: 0.60045624, b: 0, a: 0}
+  textColor: {r: 1, g: 0.37169808, b: 0.8813431, a: 0}
   sprites:
   - {fileID: 21300000, guid: 4b40cadf3efe80a42b22cee43502adfc, type: 3}
   - {fileID: 21300000, guid: 051672baca474cf45a8d7f445cfa12a4, type: 3}
