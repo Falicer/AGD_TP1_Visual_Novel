@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Rosa
   m_EditorClassIdentifier: 
   speakerName: Rosa
-  textColor: {r: 0.98039216, g: 0.5764706, b: 0.9118765, a: 0}
+  textColor: {r: 1, g: 0.35011196, b: 0.3443396, a: 0}
   sprites: []
   prefab: {fileID: 0}
