@@ -225,6 +225,7 @@ public class GameController : MonoBehaviour
                     bottomBar.Show();
                 }
                 yield return new WaitForSeconds(1f);
+                ClearLog();
                 Debug.Log(storyScene.background.ToString());
             }
             else
@@ -241,7 +242,7 @@ public class GameController : MonoBehaviour
                     BottomBar.SetActive(true);
                     bottomBar2.ClearText();
                 }
-
+                ClearLog();
                 Debug.Log(storyScene.background.ToString());
             }
 

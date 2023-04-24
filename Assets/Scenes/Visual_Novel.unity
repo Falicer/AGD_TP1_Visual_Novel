@@ -798,7 +798,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930566292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.2829285, y: -4.03714, z: -0.5826723}
+  m_LocalPosition: {x: 4.282959, y: -4.0371094, z: -0.5826723}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Carl
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00ee29a0e3d0e9e488486c0f1815fd0f, type: 2}
   m_sharedMaterial: {fileID: 517446431333647536, guid: 00ee29a0e3d0e9e488486c0f1815fd0f, type: 2}
@@ -1489,7 +1489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello there
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00ee29a0e3d0e9e488486c0f1815fd0f, type: 2}
   m_sharedMaterial: {fileID: 517446431333647536, guid: 00ee29a0e3d0e9e488486c0f1815fd0f, type: 2}
@@ -1855,7 +1855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1840885358
 RectTransform:
   m_ObjectHideFlags: 0
