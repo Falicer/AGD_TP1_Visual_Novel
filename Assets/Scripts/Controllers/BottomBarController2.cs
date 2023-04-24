@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class BottomBarController : MonoBehaviour
+public class BottomBarController2 : MonoBehaviour
 {
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
@@ -47,27 +47,12 @@ public class BottomBarController : MonoBehaviour
     {
         if (!isHidden)
         {
-            animator.SetTrigger("Hide");
-            isHidden = true;
-        }
-    }
-
-    public void Show()
-    {
-        animator.SetTrigger("Show");
-        isHidden = false;
-    }
-
-    public void Hide2()
-    {
-        if (!isHidden)
-        {
             animator.SetTrigger("Bar2Hide");
             isHidden = true;
         }
     }
 
-    public void Show2()
+    public void Show()
     {
         animator.SetTrigger("Bar2Show");
         isHidden = false;

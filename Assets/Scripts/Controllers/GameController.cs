@@ -9,9 +9,12 @@ public class GameController : MonoBehaviour
 {
     public GameScene currentScene;
     public BottomBarController bottomBar;
+    public BottomBarController2 bottomBar2;
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
     public AudioController audioController;
+    public GameObject BottomBar;
+    public GameObject BottomBar2;
 
     public DataHolder data;
 
@@ -39,15 +42,30 @@ public class GameController : MonoBehaviour
             });
             currentScene = history[history.Count - 1];
             history.RemoveAt(history.Count - 1);
-            bottomBar.SetSentenceIndex(data.sentence - 1);
+
+            if(BottomBar2.activeInHierarchy == true)
+            {
+                bottomBar2.SetSentenceIndex(data.sentence - 1);
+            }else{
+                bottomBar.SetSentenceIndex(data.sentence - 1);
+            }
+
         }
         if (currentScene is StoryScene)
         {
             StoryScene storyScene = currentScene as StoryScene;
             history.Add(storyScene);
-            bottomBar.PlayScene(storyScene, bottomBar.GetSentenceIndex());
-            backgroundController.SetImage(storyScene.background);
-            PlayAudio(storyScene.sentences[bottomBar.GetSentenceIndex()]);
+
+            if(BottomBar2.activeInHierarchy == true)
+            {
+                bottomBar2.PlayScene(storyScene, bottomBar2.GetSentenceIndex());
+                backgroundController.SetImage(storyScene.background);
+                PlayAudio(storyScene.sentences[bottomBar2.GetSentenceIndex()]);
+            }else{
+                bottomBar.PlayScene(storyScene, bottomBar.GetSentenceIndex());
+                backgroundController.SetImage(storyScene.background);
+                PlayAudio(storyScene.sentences[bottomBar.GetSentenceIndex()]);
+            }
         }
     }
 
@@ -56,42 +74,84 @@ public class GameController : MonoBehaviour
         if (state == State.IDLE) {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
-                if (bottomBar.IsCompleted())
+                if(BottomBar2.activeInHierarchy == true)
                 {
-                    bottomBar.StopTyping();
-                    if (bottomBar.IsLastSentence())
+                    if (bottomBar2.IsCompleted())
                     {
-                        PlayScene((currentScene as StoryScene).nextScene);
+                        bottomBar2.StopTyping();
+                        if (bottomBar2.IsLastSentence())
+                        {
+                            PlayScene((currentScene as StoryScene).nextScene);
+                        }
+                        else
+                        {
+                            bottomBar2.PlayNextSentence();
+                            PlayAudio((currentScene as StoryScene)
+                                .sentences[bottomBar2.GetSentenceIndex()]);
+                        }
                     }
                     else
                     {
-                        bottomBar.PlayNextSentence();
-                        PlayAudio((currentScene as StoryScene)
-                            .sentences[bottomBar.GetSentenceIndex()]);
+                        bottomBar2.SpeedUp();
                     }
                 }
-                else
-                {
-                    bottomBar.SpeedUp();
+                else{
+                    if (bottomBar.IsCompleted())
+                    {
+                        bottomBar.StopTyping();
+                        if (bottomBar.IsLastSentence())
+                        {
+                            PlayScene((currentScene as StoryScene).nextScene);
+                        }
+                        else
+                        {
+                            bottomBar.PlayNextSentence();
+                            PlayAudio((currentScene as StoryScene)
+                                .sentences[bottomBar.GetSentenceIndex()]);
+                        }
+                    }
+                    else
+                    {
+                        bottomBar.SpeedUp();
+                    }
                 }
             }
             if (Input.GetMouseButtonDown(1))
             {
-                if (bottomBar.IsFirstSentence())
-                {
-                    if(history.Count > 1)
+                if(BottomBar2.activeInHierarchy == true ){
+                    if (bottomBar2.IsFirstSentence())
                     {
-                        bottomBar.StopTyping();
-                        bottomBar.HideSprites();
-                        history.RemoveAt(history.Count - 1);
-                        StoryScene scene = history[history.Count - 1];
-                        history.RemoveAt(history.Count - 1);
-                        PlayScene(scene, scene.sentences.Count - 2, false);
+                        if(history.Count > 1)
+                        {
+                            bottomBar2.StopTyping();
+                            bottomBar2.HideSprites();
+                            history.RemoveAt(history.Count - 1);
+                            StoryScene scene = history[history.Count - 1];
+                            history.RemoveAt(history.Count - 1);
+                            PlayScene(scene, scene.sentences.Count - 2, false);
+                        }
                     }
-                }
-                else
-                {
-                    bottomBar.GoBack();
+                    else
+                    {
+                        bottomBar2.GoBack();
+                    }
+                }else{
+                    if (bottomBar.IsFirstSentence())
+                    {
+                        if(history.Count > 1)
+                        {
+                            bottomBar.StopTyping();
+                            bottomBar.HideSprites();
+                            history.RemoveAt(history.Count - 1);
+                            StoryScene scene = history[history.Count - 1];
+                            history.RemoveAt(history.Count - 1);
+                            PlayScene(scene, scene.sentences.Count - 2, false);
+                        }
+                    }
+                    else
+                    {
+                        bottomBar.GoBack();
+                    }
                 }
             }
             if (Input.GetKeyDown(KeyCode.Escape))
@@ -101,12 +161,21 @@ public class GameController : MonoBehaviour
                 {
                     historyIndicies.Add(this.data.scenes.IndexOf(scene));
                 });
-                SaveData data = new SaveData
-                {
+                if(BottomBar2.activeInHierarchy == true){
+                    SaveData data = new SaveData
+                    {
+                        sentence = bottomBar2.GetSentenceIndex(),
+                        prevScenes = historyIndicies
+                    };
+                    SaveManager.SaveGame(data);
+                }else{
+                    SaveData data2 = new SaveData
+                    {
                     sentence = bottomBar.GetSentenceIndex(),
                     prevScenes = historyIndicies
-                };
-                SaveManager.SaveGame(data);
+                    };
+                    SaveManager.SaveGame(data2);
+                }
                 SceneManager.LoadScene(menuScene);
             }
         }
@@ -121,9 +190,13 @@ public class GameController : MonoBehaviour
     {
         state = State.ANIMATE;
         currentScene = scene;
-        if (isAnimated)
+        if(isAnimated)
         {
-            bottomBar.Hide();
+            if(BottomBar2.activeInHierarchy == true){
+                bottomBar2.Hide();
+            }else{
+                bottomBar.Hide();
+            }
             yield return new WaitForSeconds(1f);
         }
         if (scene is StoryScene)
@@ -135,16 +208,46 @@ public class GameController : MonoBehaviour
             {
                 backgroundController.SwitchImage(storyScene.background);
                 yield return new WaitForSeconds(1f);
-                bottomBar.ClearText();
-                bottomBar.Show();
+
+                if(storyScene.background.ToString().Contains("ChatRoom_Filled"))
+                {
+                    bottomBar.ClearText();
+                    BottomBar2.SetActive(true);
+                    BottomBar.SetActive(false);
+                    bottomBar2.Show();
+                }
+                else{
+                    bottomBar2.ClearText();
+                    BottomBar2.SetActive(false);
+                    BottomBar.SetActive(true);
+                    bottomBar.Show();
+                }
                 yield return new WaitForSeconds(1f);
+                Debug.Log(storyScene.background.ToString());
             }
             else
             {
                 backgroundController.SetImage(storyScene.background);
-                bottomBar.ClearText();
+                if(storyScene.background.ToString().Contains("ChatRoom_Filled"))
+                {
+                    BottomBar2.SetActive(true);
+                    BottomBar.SetActive(false);
+                    bottomBar.ClearText();
+                }
+                else{
+                    BottomBar2.SetActive(false);
+                    BottomBar.SetActive(true);
+                    bottomBar2.ClearText();
+                }
+
+                Debug.Log(storyScene.background.ToString());
             }
-            bottomBar.PlayScene(storyScene, sentenceIndex, isAnimated);
+
+            if(BottomBar2.activeInHierarchy == true){
+                bottomBar2.PlayScene(storyScene, sentenceIndex, isAnimated);
+            }else{
+                bottomBar.PlayScene(storyScene, sentenceIndex, isAnimated);
+            }
             state = State.IDLE;
         }
         else if (scene is ChooseScene)
@@ -152,6 +255,7 @@ public class GameController : MonoBehaviour
             state = State.CHOOSE;
             chooseController.SetupChoose(scene as ChooseScene);
         }
+
     }
 
     private void PlayAudio(StoryScene.Sentence sentence)
