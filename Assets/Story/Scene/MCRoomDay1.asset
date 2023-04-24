@@ -13,35 +13,15 @@ MonoBehaviour:
   m_Name: MCRoomDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello World
-    speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 400, y: 0}
-      moveSpeed: 0
+  - text: I guess I'll get out now..
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
     music: {fileID: 8300000, guid: 4445d61030725f14b9085db530c9b8aa, type: 3}
     sound: {fileID: 0}
-  - text: Hello George!
+  - text: 'You throw the blankets off you and make your way to the kitchen '
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
-      spriteIndex: 0
-      actionType: 0
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Suffering
-    speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 400, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 93420c65c918c3640880399bba9e7365, type: 3}
-  nextScene: {fileID: 11400000, guid: 5acf599779950e54dbd7c8a7056f53c7, type: 2}
+  nextScene: {fileID: 11400000, guid: a24e023a539e4e14e87446265ac13646, type: 2}

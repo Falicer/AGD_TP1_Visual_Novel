@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb4b0b58573b2804ea7536fd14f93860, type: 3}
-  m_Name: Narrator
+  m_Name: Rosa
   m_EditorClassIdentifier: 
-  speakerName: Narrator
+  speakerName: Rosa
   textColor: {r: 0.98039216, g: 0.5764706, b: 0.9118765, a: 0}
   sprites: []
-  prefab: {fileID: -8490463304095453154, guid: 40e7c4af0b9539745b277b0689f453dc, type: 3}
+  prefab: {fileID: 0}

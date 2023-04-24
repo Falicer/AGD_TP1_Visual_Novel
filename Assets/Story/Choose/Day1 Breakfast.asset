@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
-  m_Name: Day1 Activity Choice
+  m_Name: Day1 Breakfast
   m_EditorClassIdentifier: 
   labels:
-  - text: Sleep all day
+  - text: Scrambled eggs
     nextScene: {fileID: 11400000, guid: b8170c6379622994882986326daf162c, type: 2}
-  - text: Do nothing
+  - text: Oatmeal
     nextScene: {fileID: 11400000, guid: 6992d18f9a740f442998fa1d806534e5, type: 2}
-  - text: Do the Dab
+  - text: Cereal
     nextScene: {fileID: 11400000, guid: 5f1e95c63301c234ab2146204fceb36d, type: 2}
