@@ -209,7 +209,7 @@ public class GameController : MonoBehaviour
                 backgroundController.SwitchImage(storyScene.background);
                 yield return new WaitForSeconds(1f);
 
-                if(storyScene.background.ToString().Contains("ChatRoom_Filled"))
+                if(storyScene.background.ToString().Contains("ChatRoom_Filled") || storyScene.background.ToString().Contains("ChatRoom_Blank"))
                 {
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
@@ -231,7 +231,7 @@ public class GameController : MonoBehaviour
             else
             {
                 backgroundController.SetImage(storyScene.background);
-                if(storyScene.background.ToString().Contains("ChatRoom_Filled"))
+                if(storyScene.background.ToString().Contains("ChatRoom_Filled") || storyScene.background.ToString().Contains("ChatRoom_Blank"))
                 {
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
