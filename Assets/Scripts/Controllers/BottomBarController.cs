@@ -140,7 +140,7 @@ public class BottomBarController : MonoBehaviour
     {
         StoryScene.Sentence sentence = currentScene.sentences[sentenceIndex];
         speedFactor = 1f;
-        if(sentence.text.Contains("<sprite="))
+        if(sentence.text.Contains("<sprite=") || sentence.text.Contains("<i>"))
         {
             speedFactor = 0.01f;
         }
