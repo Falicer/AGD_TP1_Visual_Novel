@@ -15,15 +15,20 @@ MonoBehaviour:
   sentences:
   - text: Thanks for the food Mom, I'm gonna head to school!
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 200}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Have a nice first day at school honey! I know it's scary, but just be yourself!
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The other kids will like you in no time!
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
@@ -33,7 +38,7 @@ MonoBehaviour:
       moveSpeed: 1
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: The other kids will like you in no time!
+  - text: I've packed your lunch, it's in your backpack!
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}

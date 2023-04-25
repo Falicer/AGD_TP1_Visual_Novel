@@ -13,18 +13,13 @@ MonoBehaviour:
   m_Name: MCRoomNight1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Testing
-    speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
+  - text: Huh.. I'm tired.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 02a865e44145e7e4b86f0eb6b76f5483, type: 3}
-  - text: Yeah?
-    speaker: {fileID: 11400000, guid: 8da15d0b4eccd844aa78156428b7be78, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: BoogaWooga
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+  - text: I'll look at what my friends are doing.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
