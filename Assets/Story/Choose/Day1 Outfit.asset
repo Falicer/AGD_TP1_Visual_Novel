@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
-  m_Name: Day1 Breakfast
+  m_Name: Day1 Outfit
   m_EditorClassIdentifier: 
   labels:
-  - text: Scrambled eggs
-    nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
-  - text: Oatmeal
-    nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
-  - text: Cereal
-    nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
+  - text: Casual
+    nextScene: {fileID: 11400000, guid: a24e023a539e4e14e87446265ac13646, type: 2}
+  - text: Girly
+    nextScene: {fileID: 11400000, guid: a24e023a539e4e14e87446265ac13646, type: 2}
+  - text: Alternative
+    nextScene: {fileID: 11400000, guid: a24e023a539e4e14e87446265ac13646, type: 2}

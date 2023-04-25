@@ -10,28 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: ChatboxTest
+  m_Name: ClassroomIntroDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Testing
+  - text: Thanks Rosa. You can sit back down now.
+    speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Time passes slowly...
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <sprite=2>
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+  - text: <i>Yes! the bell rings, time for a break.</i>
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Maybe this works better?
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Than doing it like <sprite=4>
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: dac582f8f7ba07f4cb20e20345665ef2, type: 3}
-  nextScene: {fileID: 11400000, guid: 82f7d6f5807ecce43872fbae82b9f443, type: 2}
+    sound: {fileID: 8300000, guid: cd080b11ec6a8e14db450376b06ceb1e, type: 3}
+  background: {fileID: 21300000, guid: 85038e9add584f44b8bfcf2aee95f3c3, type: 3}
+  nextScene: {fileID: 11400000, guid: 85e29d32d5405f049a79311c54553ebe, type: 2}
