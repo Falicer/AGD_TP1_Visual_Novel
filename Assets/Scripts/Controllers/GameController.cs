@@ -193,9 +193,18 @@ public class GameController : MonoBehaviour
         if(isAnimated)
         {
             if(BottomBar2.activeInHierarchy == true){
+                if(scene is ChooseScene){
+
+                }else{
                 bottomBar.Hide2();
+                }
             }else{
+                if(scene is ChooseScene)
+                {
+
+                }else{
                 bottomBar.Hide();
+                }
             }
             yield return new WaitForSeconds(1f);
         }
