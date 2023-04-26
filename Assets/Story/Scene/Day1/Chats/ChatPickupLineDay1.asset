@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: ChatPickupLineDay1
   m_EditorClassIdentifier: 
   sentences:
+  - text: I live in Woodland!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   - text: I'm from MapleTown
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
