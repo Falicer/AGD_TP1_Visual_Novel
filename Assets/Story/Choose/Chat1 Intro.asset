@@ -17,5 +17,5 @@ MonoBehaviour:
     nextScene: {fileID: 11400000, guid: 7367f9dab44caf04db6efed0d83389e0, type: 2}
   - text: Kind
     nextScene: {fileID: 11400000, guid: 1135d866473609a4088e1338e8de0346, type: 2}
-  - text: Abrupt
+  - text: Cautious
     nextScene: {fileID: 11400000, guid: e57b81a49ffc2c445a2ce89d1fdd035d, type: 2}

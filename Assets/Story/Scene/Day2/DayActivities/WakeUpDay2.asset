@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: IntroAbrupt
+  m_Name: WakeUpDay2
   m_EditorClassIdentifier: 
   sentences:
-  - text: Nothing lol
-    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+  - text: 'Ugh.. '
+    speaker: {fileID: 0}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  background: {fileID: 21300000, guid: 3b06d3bbc0ad0304ab38aabf604578a8, type: 3}
-  nextScene: {fileID: 11400000, guid: 676e76cd64c71ad44930744b675084ce, type: 2}
+    sound: {fileID: 8300000, guid: cd98f66e1c8bb07459ac38aee512c119, type: 3}
+  background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
+  nextScene: {fileID: 0}
