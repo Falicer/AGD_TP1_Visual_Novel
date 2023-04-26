@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: ConfidentIntroductionDay1
+  m_Name: ChatTellLocation
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello everyone! I'm Rosa. Remember my name!
+  - text: I live in Woodland!
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 85038e9add584f44b8bfcf2aee95f3c3, type: 3}
-  nextScene: {fileID: 11400000, guid: 61c064e1ac55ff344b9e1decce500d7e, type: 2}
+  background: {fileID: 21300000, guid: 3b06d3bbc0ad0304ab38aabf604578a8, type: 3}
+  nextScene: {fileID: 11400000, guid: fddc9396547a0074dbb4eb9e48b99419, type: 2}

@@ -10,54 +10,48 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: ChatPickupLineDay1
+  m_Name: ChatPLGiraffe
   m_EditorClassIdentifier: 
   sentences:
-  - text: I'm from MapleTown
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: 'Coolcool '
+  - text: I would be a giraffe, theyre my fav animal
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: Been there before?
+  - text: That's not a day lol
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: No but me and my friends are going there soon
+  - text: Haha what kind of question was that
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: You should yeah! You can shop there and stuff. Maybe I could be your tourguide
-      one day haha
+  - text: A creative one! Humour is my best quality
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: Haha maybe, is that supposed to be a pickupline?
+  - text: Not everyone agrees ;)
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: If I wanted to use one I would've picked a different one xd
+  - text: I've learned a lot about you from your answer though haha
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: Like?
+  - text: What did you learn then?
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: If you could be any animal for a day, which day would that be?
+  - text: 'You''re creative! '
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   background: {fileID: 21300000, guid: 3b06d3bbc0ad0304ab38aabf604578a8, type: 3}
-  nextScene: {fileID: 11400000, guid: 0003ac3292b9926419d3d6ff4415b13d, type: 2}
+  nextScene: {fileID: 11400000, guid: 9c6f15993849ae1409e8fd54c4705fc6, type: 2}

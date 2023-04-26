@@ -18,4 +18,4 @@ MonoBehaviour:
   - text: Tuesday
     nextScene: {fileID: 11400000, guid: 9c25ff3e57f952143b8ff9aab2d7b681, type: 2}
   - text: Cheese
-    nextScene: {fileID: 11400000, guid: dd042537578cbf04791b91a66f8ba058, type: 2}
+    nextScene: {fileID: 11400000, guid: 3b44b58805c6eb448913504ec51b344b, type: 2}
