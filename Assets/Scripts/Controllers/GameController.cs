@@ -234,8 +234,8 @@ public class GameController : MonoBehaviour
                     bottomBar.Show();
                 }
                 yield return new WaitForSeconds(1f);
-                ClearLog();
-                Debug.Log(storyScene.background.ToString());
+                //ClearLog();
+                //Debug.Log(storyScene.background.ToString());
             }
             else
             {
@@ -251,8 +251,8 @@ public class GameController : MonoBehaviour
                     BottomBar.SetActive(true);
                     bottomBar2.ClearText();
                 }
-                ClearLog();
-                Debug.Log(storyScene.background.ToString());
+                // ClearLog();
+                // Debug.Log(storyScene.background.ToString());
             }
 
             if(BottomBar2.activeInHierarchy == true){
@@ -275,11 +275,11 @@ public class GameController : MonoBehaviour
         audioController.PlayAudio(sentence.music, sentence.sound);
     }
 
-    public void ClearLog()
-    {
-        var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
-        var type = assembly.GetType("UnityEditor.LogEntries");
-        var method = type.GetMethod("Clear");
-        method.Invoke(new object(), null);
-    }
+    // public void ClearLog()
+    // {
+    //     var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+    //     var type = assembly.GetType("UnityEditor.LogEntries");
+    //     var method = type.GetMethod("Clear");
+    //     method.Invoke(new object(), null);
+    // }
 }
