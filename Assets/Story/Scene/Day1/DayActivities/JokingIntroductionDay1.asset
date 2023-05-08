@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JokingIntroductionDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello everyone! I'm Rosa. I'm so funny!
+  - text: Hello everyone! I'm Rosa. I like turtles.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
