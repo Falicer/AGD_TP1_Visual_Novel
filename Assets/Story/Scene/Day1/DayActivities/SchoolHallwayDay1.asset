@@ -18,7 +18,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>Oh shit.</i>
+  - text: <i>Oh crap.</i>
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Here you go. Try to hold onto them untill you get to your class.
+  - text: Here you go. Try to hold onto them until you get to your class.
     speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
