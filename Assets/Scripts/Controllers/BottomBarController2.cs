@@ -130,8 +130,18 @@ public class BottomBarController2 : MonoBehaviour
             speedFactor = 0.01f;
         }
         typingCoroutine = StartCoroutine(TypeText(sentence.text));
+
+        if(sentence.speaker.speakerName == "Rosa"){
+            personNameText.alignment = TextAlignmentOptions.Right;
+            barText.alignment = TextAlignmentOptions.TopRight;
+        }else{
+            personNameText.alignment = TextAlignmentOptions.Left;
+            barText.alignment = TextAlignmentOptions.TopLeft;
+        }
+
         personNameText.text = sentence.speaker.speakerName;
         personNameText.color = sentence.speaker.textColor;
+        
         // if (sentence.audio)
         // {
         //     voicePlayer.clip = sentence.audio;
@@ -153,7 +163,7 @@ public class BottomBarController2 : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(speedFactor * 0.05f);
+            yield return new WaitForSeconds(speedFactor * 0.000000001f);
             if(++wordIndex == text.Length)
             {
                 state = State.COMPLETED;

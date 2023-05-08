@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: GreatDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: I told you you'd have a good time!
-    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+  - text: It was pretty great actually.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
       spriteIndex: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I'm glad honey.
+  - text: "I told you you\u2019d have a good time! I\u2019m glad to hear."
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb4b0b58573b2804ea7536fd14f93860, type: 3}
-  m_Name: Wolff
+  m_Name: DaDave
   m_EditorClassIdentifier: 
-  speakerName: W0lff
-  textColor: {r: 0.3569837, g: 0.9528302, b: 0.33618724, a: 0}
+  speakerName: DaDave
+  textColor: {r: 0.14509803, g: 1, b: 0.7641938, a: 0}
   sprites: []
   prefab: {fileID: 0}

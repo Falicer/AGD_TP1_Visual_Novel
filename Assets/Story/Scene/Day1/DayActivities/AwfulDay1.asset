@@ -23,7 +23,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I'm sure tomorrow will be better. You just need to find your place.
+  - text: Oh honey. That's horrible to hear.. You just need to find your place.
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
