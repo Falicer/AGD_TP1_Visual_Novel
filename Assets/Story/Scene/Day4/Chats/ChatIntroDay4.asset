@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: ChatIntroDay4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hey you there?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Yeah, not in the mood for games really
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What's up?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: School's just been rough honestly
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Did something happen?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: No one likes me. My whole bag and books were soaked in water cuz they threw
+      my bag on the floor.
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hey that\u2019s not true. I bet theres kids that like you."
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: " I promise you\u2019ll be okay. You can talk to me, I\u2019m here for
+      you."
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Thanks, means a lot
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I need some rest
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sure, I'm here if you need someone, okay?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Yeah thank you Wolf
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'll talk to you
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Tomorrow will be better, I promise! Stay positive Rosa.
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  background: {fileID: 21300000, guid: ff14db9c0f02cd24d90382691d144292, type: 3}
+  nextScene: {fileID: 11400000, guid: 996fd06e745ca9e42aafc87f97f1b496, type: 2}
