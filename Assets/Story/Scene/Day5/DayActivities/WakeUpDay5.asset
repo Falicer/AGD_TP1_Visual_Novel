@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: WakeUpDay5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: You're late!
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Shit. Really? What\u2019s the time?"
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 3
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "It\u2019s 9 o\u2019clock. I guess if you hurry you\u2019d make it."
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 900, y: 200}
+      moveSpeed: 0.5
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 3
+      actionType: 3
+      coords: {x: 900, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You jump up out of bed and quickly grab clothes off of your chair.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 93420c65c918c3640880399bba9e7365, type: 3}
+  nextScene: {fileID: 11400000, guid: 16517de0af7bbc14e963c05b13490869, type: 2}

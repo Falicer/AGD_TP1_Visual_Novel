@@ -48,6 +48,11 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
       spriteIndex: 0
+      actionType: 2
+      coords: {x: 800, y: 200}
+      moveSpeed: 0.5
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 0
       actionType: 3
       coords: {x: 800, y: 200}
       moveSpeed: 0

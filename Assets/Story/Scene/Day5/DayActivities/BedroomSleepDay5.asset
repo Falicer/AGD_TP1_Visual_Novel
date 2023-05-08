@@ -10,24 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: BedroomSleepDay4
+  m_Name: BedroomSleepDay5
   m_EditorClassIdentifier: 
   sentences:
-  - text: You close the laptop. You feel a little bit of relief.
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
-    music: {fileID: 8300000, guid: d23fc16c2fc583b4b9b335a0fe0ce30d, type: 3}
-    sound: {fileID: 0}
-  - text: With a thud you fall into the soft sheets of your bed. You wrap them around
-      you.
+  - text: You close your laptop and put on your pajamas.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>Tomorrow will be another day...
+  - text: <i>Finally weekend.. I can get some rest.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: cea3a016d34fbe04eaa353e44726cb68, type: 3}
-  nextScene: {fileID: 11400000, guid: 2aa5ae0a02e4fff488b16506113d99aa, type: 2}
+  nextScene: {fileID: 0}
