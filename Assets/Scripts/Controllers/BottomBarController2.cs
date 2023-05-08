@@ -131,7 +131,7 @@ public class BottomBarController2 : MonoBehaviour
         }
         typingCoroutine = StartCoroutine(TypeText(sentence.text));
 
-        if(sentence.speaker.speakerName == "Rosa"){
+        if(sentence.speaker.speakerName == "RedRosa07"){
             personNameText.alignment = TextAlignmentOptions.Right;
             barText.alignment = TextAlignmentOptions.TopRight;
         }else{
