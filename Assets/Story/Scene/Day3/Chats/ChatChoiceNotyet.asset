@@ -18,7 +18,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Oh I understand, sorry for asking. I'm just ecited meeting new people
+  - text: Oh I understand, sorry for asking. I'm just excited meeting new people
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
