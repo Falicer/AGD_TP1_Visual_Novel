@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: Chat3Day3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I'm from MapleTown
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Alrighty cool
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Have you eve been there?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: No but I really want to visit the mall there someday
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You really should! You can shop and stuff here haha. Maybe I could be your
+      tour guide?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Hahaha maybe
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Was fun playing with you again Rosa
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Yeah was fun thanks
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Catch you tomorrow?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Sure seeya, goodnight
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Night!
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  background: {fileID: 21300000, guid: 92509a82f79670c45a6044ca4cde5d83, type: 3}
+  nextScene: {fileID: 0}

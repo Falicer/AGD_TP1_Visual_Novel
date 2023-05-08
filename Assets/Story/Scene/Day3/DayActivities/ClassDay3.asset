@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: ClassDay3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: You sit down and try to focus but you keep thinking about d
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Rosa, what is the awnser to this problem?
+    speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>Shit I wasn't paying attention..</i>
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Uhhh.. 42?
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hahahaha! Haha hahaha!
+    speaker: {fileID: 11400000, guid: 3b9c9d173e00df94ebac25880eb70135, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Haha! You're in biology class, you dumbass!
+    speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You feel like sinking into the floor... Just make it stop
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "That\u2019s very uncalled for. Stop laughing."
+    speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The laughing slowly dies down.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Time ticks slowly, but class is over now.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 85038e9add584f44b8bfcf2aee95f3c3, type: 3}
+  nextScene: {fileID: 0}

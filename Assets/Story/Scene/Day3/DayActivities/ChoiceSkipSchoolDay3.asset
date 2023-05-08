@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: ChoiceSkipSchoolDay3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "I didn\u2019t think you\u2019d actually say yes! Guess you\u2019re not
+      too much of a goody two-shoes."
+    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Let's go!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You go to the mall with Mimi and her friend. It's not busy but there's
+      a few people shopping.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I like this top!
+    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It suits you! You should totally get it.
+    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Time passes quickly while shopping. It's lots of fun.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>hope I didn't miss much at school...</i>
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: cbf563172e07577439e1c2c91333bcb1, type: 3}
+  nextScene: {fileID: 0}

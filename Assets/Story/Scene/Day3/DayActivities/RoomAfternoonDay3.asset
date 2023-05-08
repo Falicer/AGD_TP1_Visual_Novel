@@ -10,13 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: NewStoryScene
+  m_Name: RoomAfternoonDay3
   m_EditorClassIdentifier: 
   sentences:
-  - text: You play a handful of games
-    speaker: {fileID: 0}
+  - text: After homework you log into Gamechat to find all your friends offline.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
+  - text: W0lff is online though so you check if he is up for a game of Bulletstorm.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 0}
   nextScene: {fileID: 0}
