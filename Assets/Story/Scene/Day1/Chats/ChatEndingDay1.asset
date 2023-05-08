@@ -24,9 +24,9 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   - text: Sure! seeya then
-    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: f053fe40fe4870c4a82405a1d56fde96, type: 3}
   nextScene: {fileID: 0}

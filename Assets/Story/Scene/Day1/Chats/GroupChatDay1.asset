@@ -10,33 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: IntroConfident
+  m_Name: GroupChatDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Yeah. I'm a natural!
-    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I like your confidence! You always this good?
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+  - text: Well played everyone!
+    speaker: {fileID: 11400000, guid: 5824cec66826d5d41a2756c7c0a22128, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: I'll show you. Let's play again
+  - text: Yeah GGWP!!
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Sure, tomorrow at 9!
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+  - text: We miss you back home Rosa, tomorrow same time?
+    speaker: {fileID: 11400000, guid: a2a9a0573c1259144890273584637fff, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: See ya then
+  - text: I'll carry you tomorrow haha
+    speaker: {fileID: 11400000, guid: 718690641faa0ac498feeb6adef58f12, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Showoff lol.. Sounds good!
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: f053fe40fe4870c4a82405a1d56fde96, type: 3}
-  nextScene: {fileID: 11400000, guid: e202b33675691924ebab39dce385e894, type: 2}
+  background: {fileID: 21300000, guid: 92509a82f79670c45a6044ca4cde5d83, type: 3}
+  nextScene: {fileID: 11400000, guid: 80d55cc0ff76c9c40846169121d10b57, type: 2}
