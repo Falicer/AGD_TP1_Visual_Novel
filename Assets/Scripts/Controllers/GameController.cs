@@ -218,7 +218,7 @@ public class GameController : MonoBehaviour
                 backgroundController.SwitchImage(storyScene.background);
                 yield return new WaitForSeconds(1f);
 
-                if(storyScene.background.ToString().Contains("Chat"))
+                if(storyScene.background.ToString().Contains("Chat") || storyScene.background.ToString().Contains("chat"))
                 {
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
@@ -234,13 +234,13 @@ public class GameController : MonoBehaviour
                     bottomBar.Show();
                 }
                 yield return new WaitForSeconds(1f);
-                ClearLog();
-                Debug.Log(storyScene.background.ToString());
+                //ClearLog();
+                //Debug.Log(storyScene.background.ToString());
             }
             else
             {
                 backgroundController.SetImage(storyScene.background);
-                if(storyScene.background.ToString().Contains("Chat"))
+                if(storyScene.background.ToString().Contains("Chat") || storyScene.background.ToString().Contains("chat"))
                 {
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
@@ -251,8 +251,8 @@ public class GameController : MonoBehaviour
                     BottomBar.SetActive(true);
                     bottomBar2.ClearText();
                 }
-                ClearLog();
-                Debug.Log(storyScene.background.ToString());
+                // ClearLog();
+                // Debug.Log(storyScene.background.ToString());
             }
 
             if(BottomBar2.activeInHierarchy == true){
@@ -275,11 +275,11 @@ public class GameController : MonoBehaviour
         audioController.PlayAudio(sentence.music, sentence.sound);
     }
 
-    public void ClearLog()
-    {
-        var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
-        var type = assembly.GetType("UnityEditor.LogEntries");
-        var method = type.GetMethod("Clear");
-        method.Invoke(new object(), null);
-    }
+    // public void ClearLog()
+    // {
+    //     var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+    //     var type = assembly.GetType("UnityEditor.LogEntries");
+    //     var method = type.GetMethod("Clear");
+    //     method.Invoke(new object(), null);
+    // }
 }

@@ -46,14 +46,14 @@ public class ChooseController : MonoBehaviour
         animator.SetTrigger("Hide");
 
         // For testing purposes for the answers in a list
-        gameController.ClearLog();
+        //gameController.ClearLog();
         if(!gameController.answerList.Contains(selectedAnswer))
         {
             gameController.answerList.Add(selectedAnswer);
         }
         foreach (var answer in gameController.answerList)
         {
-            Debug.Log(answer.ToString());
+            //Debug.Log(answer.ToString());
         }
     }
 
