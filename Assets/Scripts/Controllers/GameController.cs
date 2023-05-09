@@ -66,6 +66,10 @@ public class GameController : MonoBehaviour
                 bottomBar2.PlayScene(storyScene, bottomBar2.GetSentenceIndex());
                 backgroundController.SetImage(storyScene.background);
                 PlayAudio(storyScene.sentences[bottomBar2.GetSentenceIndex()]);
+            }else if(BottomBar3.activeInHierarchy == true){
+                bottomBar3.PlayScene(storyScene, bottomBar3.GetSentenceIndex());
+                backgroundController.SetImage(storyScene.background);
+                PlayAudio(storyScene.sentences[bottomBar3.GetSentenceIndex()]);
             }else{
                 bottomBar.PlayScene(storyScene, bottomBar.GetSentenceIndex());
                 backgroundController.SetImage(storyScene.background);
@@ -229,7 +233,14 @@ public class GameController : MonoBehaviour
                 }else{
                     bottomBar.Hide2();
                 }
-            }else{
+            }else if(BottomBar3.activeInHierarchy == true){
+                if(scene is ChooseScene){
+
+                }else{
+                    bottomBar3.Hide();
+                }
+            }
+            else{
                 if(scene is ChooseScene)
                 {
 
