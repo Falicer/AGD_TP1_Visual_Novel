@@ -46,14 +46,12 @@ public class BottomBarController3 : MonoBehaviour
     {
         if (!isHidden)
         {
-            animator.SetTrigger("Bar3Hide");
             isHidden = true;
         }
     }
 
     public void Show()
     {
-        animator.SetTrigger("Bar3Show");
         isHidden = false;
     }
 

@@ -227,9 +227,16 @@ public class GameController : MonoBehaviour
                 if(scene is ChooseScene){
 
                 }else{
-                    bottomBar.Hide2();
+                    bottomBar2.Hide();
                 }
-            }else{
+            }else if(BottomBar3.activeInHierarchy == true){
+                if(scene is ChooseScene){
+
+                }else{
+                    bottomBar3.Hide();
+                }
+            }
+            else{
                 if(scene is ChooseScene)
                 {
 
