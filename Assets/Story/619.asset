@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
   m_Name: 619
   m_EditorClassIdentifier: 
-  labels: []
+  labels:
+  - text: REY MYSTERIO!
+    nextScene: {fileID: 11400000, guid: 4438e86fbe16f8a4b854e1b153a57626, type: 2}
+  - text: 619!
+    nextScene: {fileID: 11400000, guid: f7b0e2a561dc6824592f55d4f7b62c6a, type: 2}
