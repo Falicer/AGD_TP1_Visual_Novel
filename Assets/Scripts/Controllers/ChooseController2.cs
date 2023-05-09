@@ -21,7 +21,7 @@ public class ChooseController2 : MonoBehaviour
     {
         DestroyLabels();
         animator.SetTrigger("Show2");
-        private float totalLabelSize;
+        
         for(int index = 0; index < scene.labels.Count; index++)
         {
             
@@ -36,8 +36,8 @@ public class ChooseController2 : MonoBehaviour
                 labelHeight = newLabel.GetHeight();
             }
 
-            // 1, 1 to put em next to each other???
-            newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(1, 1), scene.labels[index].text.textBounds);
+            // 1, 1 to put em next to each other??? ---- scene.labels[index].text.textBounds
+            newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(1, 1), CalculateLabelPosition(1, 1));
 
         }
 
