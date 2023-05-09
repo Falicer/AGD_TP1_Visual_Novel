@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ToSchoolDay3
   m_EditorClassIdentifier: 
   sentences:
-  - text: You walk too school.
+  - text: You walk to school.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}

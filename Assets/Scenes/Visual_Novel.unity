@@ -1140,14 +1140,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60e074e23540c24dbf1025125728350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 8bb7558d06f8b2a47bc1b64299786afb, type: 2}
+  currentScene: {fileID: 11400000, guid: a3d3af8cbd6294e4b98e080fa5f4e163, type: 2}
   bottomBar: {fileID: 463456718}
   bottomBar2: {fileID: 1840885363}
   backgroundController: {fileID: 930566295}
   chooseController: {fileID: 723288226}
+  chooseController2: {fileID: 0}
   audioController: {fileID: 359512257}
   BottomBar: {fileID: 463456714}
   BottomBar2: {fileID: 1840885357}
+  Choose: {fileID: 0}
+  Choose2: {fileID: 0}
   data: {fileID: 11400000, guid: f36e195adc517854ea093fe112368a20, type: 2}
   menuScene: Main menu
   answerList: []

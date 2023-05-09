@@ -18,19 +18,31 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Hi hon! Did you have a good day?
+  - text: "Hey honey, I\u2019m on the phone with work for a bit. You can just grab
+      a plate of lasagna from the oven."
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: 'Yeah was fine! I have a lot of homework to do! '
+  - text: Oh okay. Thanks mom.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: 'Oh okay sweetheart, good luck. '
+  - text: "No David we can\u2019t merge the accounts without liability expenses that
+      won\u2019t result in profitable deliverables\u2026."
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 3
+      actionType: 3
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: a3289dc0e6400a946a676745c541a92a, type: 3}
