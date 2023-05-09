@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Skip school
-    nextScene: {fileID: 0}
-  - text: Stay
-    nextScene: {fileID: 0}
+    nextScene: {fileID: 11400000, guid: f46c602b5d40bff4f91d7e4bb1da1752, type: 2}
+  - text: Stay in school
+    nextScene: {fileID: 11400000, guid: 9dac35b0820f00b4cbb31d29f01dbd99, type: 2}

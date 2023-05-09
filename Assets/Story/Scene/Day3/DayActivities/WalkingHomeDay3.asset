@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: WalkingHomeDay3
   m_EditorClassIdentifier: 
   sentences:
-  - text: You walk back home.
+  - text: You walk back home, tired after a long day.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: ea798296753b31a43adc71cbcd496e64, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 9ecac40d849891c428d2a8ba5da35371, type: 2}
