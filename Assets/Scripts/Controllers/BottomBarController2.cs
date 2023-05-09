@@ -138,6 +138,11 @@ public class BottomBarController2 : MonoBehaviour
             personNameText.alignment = TextAlignmentOptions.Left;
             barText.alignment = TextAlignmentOptions.TopLeft;
         }
+        if(sentence.speaker.speakerName == "Author"){
+            barText.fontStyle = FontStyle.BoldAndItalic;
+        }else{
+            barText.fontStyle = FontStyle.Normal;
+        }
 
         personNameText.text = sentence.speaker.speakerName;
         personNameText.color = sentence.speaker.textColor;
