@@ -15,12 +15,7 @@ MonoBehaviour:
   sentences:
   - text: <i>Another day begins..</i>
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 400, y: 200}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You head downstairs quickly.
