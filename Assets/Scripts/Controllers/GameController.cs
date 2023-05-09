@@ -259,7 +259,6 @@ public class GameController : MonoBehaviour
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
-                    bottomBar2.Show();
                 }else if(storyScene.background.ToString().Contains("Photo") || storyScene.background.ToString().Contains("photo")){
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(false);
@@ -269,7 +268,6 @@ public class GameController : MonoBehaviour
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
-                    bottomBar3.Show();
                 }
                 else{
                     BottomBar2.SetActive(false);
@@ -280,7 +278,6 @@ public class GameController : MonoBehaviour
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
-                    bottomBar.Show();
                 }
 
                 yield return new WaitForSeconds(1f);
