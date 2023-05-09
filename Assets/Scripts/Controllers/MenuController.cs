@@ -27,8 +27,7 @@ public class MenuController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape) && _window == 1)
         {
-            animator.SetTrigger("HideOptions");
-            _window = 0;
+            HideOptions();
         }
     }
 
@@ -49,10 +48,21 @@ public class MenuController : MonoBehaviour
         _window = 1;
     }
 
+    public void HideOptions()
+    {
+        animator.SetTrigger("HideOptions");
+        _window = 0;
+    }
+
     public void QuitGame()
     {
         Application.Quit();
     }
+
+    // public void ShowCredits() 
+    // {
+
+    // }
 
     public void OnMusicChanged(float value)
     {
