@@ -227,7 +227,7 @@ public class GameController : MonoBehaviour
                 if(scene is ChooseScene){
 
                 }else{
-                    bottomBar2.Hide();
+                    bottomBar.Hide2();
                 }
             }else{
                 if(scene is ChooseScene)
@@ -314,6 +314,8 @@ public class GameController : MonoBehaviour
 
             if(BottomBar2.activeInHierarchy == true){
                 bottomBar2.PlayScene(storyScene, sentenceIndex, isAnimated);
+            }else if(BottomBar3.activeInHierarchy == true){
+                bottomBar3.PlayScene(storyScene, sentenceIndex, isAnimated);
             }else{
                 bottomBar.PlayScene(storyScene, sentenceIndex, isAnimated);
             }

@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60e074e23540c24dbf1025125728350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 6e58929aa46668a4c887489826b7b5bb, type: 2}
+  currentScene: {fileID: 11400000, guid: e32bff45c20510449b826682affe6473, type: 2}
   bottomBar: {fileID: 463456718}
   bottomBar2: {fileID: 1840885363}
   bottomBar3: {fileID: 1376662701}
@@ -2008,7 +2008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 139.2417, y: 797.9507}
+  m_AnchoredPosition: {x: 1800, y: -979}
   m_SizeDelta: {x: -715.3897, y: 199.5637}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376662701
@@ -2060,7 +2060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41568628, g: 0.42352942, b: 0.43529412, a: 0.6156863}
+  m_Color: {r: 0.41568628, g: 0.42352942, b: 0.43529412, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
