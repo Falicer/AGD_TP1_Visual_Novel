@@ -77,7 +77,7 @@ public class GameController : MonoBehaviour
         if (state == State.IDLE) {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
-                if((currentScene as StoryScene).sentences.Count > 0){
+                if((currentScene as StoryScene).sentences != null){
                     if(BottomBar2.activeInHierarchy == true)
                     {
                         if (bottomBar2.IsCompleted())
