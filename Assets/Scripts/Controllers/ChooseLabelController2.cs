@@ -30,7 +30,7 @@ public class ChooseLabelController2 : MonoBehaviour, IPointerClickHandler, IPoin
 
         Vector3 position = textMesh.rectTransform.localPosition;
         position.y = 0;
-        position.x = textMesh.rectTransform.localPosition.x + x + 50;
+        position.x = x;
         textMesh.rectTransform.localPosition = position;
         selectedAnswer = label.text;
     }

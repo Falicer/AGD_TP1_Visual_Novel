@@ -11,6 +11,7 @@ public class ChooseController2 : MonoBehaviour
     private Animator animator;
     private float labelHeight = -1;
     private float totalLabelSize;
+    private float widthBetween;
 
     void Start()
     {
@@ -22,12 +23,15 @@ public class ChooseController2 : MonoBehaviour
     {
         DestroyLabels();
         animator.SetTrigger("Show2");
-        
 
         for(int index = 0; index < scene.labels.Count; index++)
         {
-            //scene.labels[index].
+            totalLabelSize += scene.labels[index].text.Length;
         }
+
+        widthBetween = rectTransform.rect.width - totalLabelSize - 50;
+        widthBetween = widthBetween / scene.labels.Count;
+
 
         for(int index = 0; index < scene.labels.Count; index++)
         {
@@ -39,12 +43,12 @@ public class ChooseController2 : MonoBehaviour
             }
 
             // 1, 1 to put em next to each other??? ---- scene.labels[index].text.textBounds
-            newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(1, 1), CalculateLabelPosition(1, 1));
+            newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(1, 1), index * widthBetween);
 
         }
 
         Vector2 size = rectTransform.sizeDelta;
-        size.y = 2 * labelHeight;
+        size.y = 2 * labelHeight / 4 * 3;
         rectTransform.sizeDelta = size;
         
     }
