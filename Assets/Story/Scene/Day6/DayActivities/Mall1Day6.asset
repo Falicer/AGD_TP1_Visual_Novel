@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: Mall1Day6
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The mall is quite busy. That is to be expected on a saturday...
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' You look around different stores. Your mom keeps showing you clothes
+      that are totally not your style.'
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mommm those clothes are totally boring! So out of style right now.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You pick out a few good clothes, and look for a fitting room.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'll go to the fitting rooms, see you in a bit.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You take a few selfies in the fitting room mirrors while trying out some
+      clothes.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Honey? Do they fit?
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yeah I'll be out in a sec!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You hang some pieces back but you did score pants and a shirt.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You get some bubble tea with your mom. She still doesn't get the hype about
+      those 'rubbery balls' in your drink.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thanks for taking me mom, I had a good time.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Me too honey. Sorry I've been so busy, are you fitting in well at school?
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>Should I tell her about the bullying?
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 3133f69584af5f0449cb7596d9710732, type: 3}
+  nextScene: {fileID: 11400000, guid: ab59d5ded68199544bbe661b54a2b472, type: 2}
