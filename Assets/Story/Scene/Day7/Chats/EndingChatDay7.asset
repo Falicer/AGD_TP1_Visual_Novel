@@ -10,28 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: ChatStartDay3
+  m_Name: EndingChatDay7
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hey! You on?
-    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Hi yeah
+  - text: "Welp let\u2019s call it a night. It\u2019s been a long day already."
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: Let's go!
+  - text: Talk to you tomorrow!
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Yeah let's win!
+  - text: Sweet dreams Rosa x
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   background: {fileID: 21300000, guid: ff14db9c0f02cd24d90382691d144292, type: 3}
-  nextScene: {fileID: 11400000, guid: 10a4fd772c0dd3b4fb8cc8fed472406d, type: 2}
+  nextScene: {fileID: 0}

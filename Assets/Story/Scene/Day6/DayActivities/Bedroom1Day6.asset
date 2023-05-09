@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: Bedroom1Day6
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Good morning mom.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hi sleepyhead. So, do you want to?
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sounds good!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Get up then kiddo, I'll make you some breakfast.
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You roll out of bed with your sheets still around you like a burrito. You
+      waddle to your closet.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You throw on a simply comfy outfit for the mall.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 93420c65c918c3640880399bba9e7365, type: 3}
+  nextScene: {fileID: 11400000, guid: 0f3c626f2dac7584eadfebb339125b77, type: 2}

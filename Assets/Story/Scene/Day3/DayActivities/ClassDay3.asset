@@ -19,7 +19,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Rosa, what is the awnser to this problem?
+  - text: Rosa, what is the answer to this problem?
     speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
     actions: []
     music: {fileID: 0}
@@ -40,12 +40,12 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You feel like sinking into the floor...
-    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: <i>I hate this, why did he have to pick me?!</i>
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
