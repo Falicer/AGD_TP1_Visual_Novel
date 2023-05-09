@@ -12,9 +12,12 @@ public class GameController : MonoBehaviour
     public BottomBarController2 bottomBar2;
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
+    // public ChooseController2 chooseController2;
     public AudioController audioController;
     public GameObject BottomBar;
     public GameObject BottomBar2;
+    // public GameObject Choose; 
+    // public GameObject Choose2;
 
     public DataHolder data;
 
@@ -74,82 +77,113 @@ public class GameController : MonoBehaviour
         if (state == State.IDLE) {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
-                if(BottomBar2.activeInHierarchy == true)
-                {
-                    if (bottomBar2.IsCompleted())
+                if((currentScene as StoryScene).sentences.Count > 0){
+                    if(BottomBar2.activeInHierarchy == true)
                     {
-                        bottomBar2.StopTyping();
-                        if (bottomBar2.IsLastSentence())
+                        if (bottomBar2.IsCompleted())
                         {
-                            PlayScene((currentScene as StoryScene).nextScene);
+                            bottomBar2.StopTyping();
+                            if (bottomBar2.IsLastSentence())
+                            {
+                                PlayScene((currentScene as StoryScene).nextScene);
+                            }
+                            else
+                            {
+                                bottomBar2.PlayNextSentence();
+                                PlayAudio((currentScene as StoryScene)
+                                    .sentences[bottomBar2.GetSentenceIndex()]);
+                            }
                         }
                         else
                         {
-                            bottomBar2.PlayNextSentence();
-                            PlayAudio((currentScene as StoryScene)
-                                .sentences[bottomBar2.GetSentenceIndex()]);
+                            bottomBar2.SpeedUp();
                         }
                     }
-                    else
-                    {
-                        bottomBar2.SpeedUp();
-                    }
-                }
-                else{
-                    if (bottomBar.IsCompleted())
-                    {
-                        bottomBar.StopTyping();
-                        if (bottomBar.IsLastSentence())
+                    else{
+                        if (bottomBar.IsCompleted())
                         {
-                            PlayScene((currentScene as StoryScene).nextScene);
+                            bottomBar.StopTyping();
+                            if (bottomBar.IsLastSentence())
+                            {
+                                PlayScene((currentScene as StoryScene).nextScene);
+                            }
+                            else
+                            {
+                                bottomBar.PlayNextSentence();
+                                PlayAudio((currentScene as StoryScene)
+                                    .sentences[bottomBar.GetSentenceIndex()]);
+                            }
                         }
                         else
                         {
-                            bottomBar.PlayNextSentence();
-                            PlayAudio((currentScene as StoryScene)
-                                .sentences[bottomBar.GetSentenceIndex()]);
+                            bottomBar.SpeedUp();
                         }
                     }
-                    else
-                    {
-                        bottomBar.SpeedUp();
-                    }
+                }else{
+                    BottomBar2.SetActive(false);
+                    BottomBar.SetActive(false);
+                    PlayScene((currentScene as StoryScene).nextScene);
                 }
             }
             if (Input.GetMouseButtonDown(1))
             {
-                if(BottomBar2.activeInHierarchy == true ){
-                    if (bottomBar2.IsFirstSentence())
-                    {
+                if((currentScene as StoryScene).sentences.Count > 0){
+                    if(BottomBar2.activeInHierarchy == true ){
+                        if (bottomBar2.IsFirstSentence())
+                        {
+                            if(history.Count > 1)
+                            {
+                                bottomBar2.StopTyping();
+                                bottomBar2.HideSprites();
+                                history.RemoveAt(history.Count - 1);
+                                StoryScene scene = history[history.Count - 1];
+                                history.RemoveAt(history.Count - 1);
+                                PlayScene(scene, scene.sentences.Count - 2, false);
+                            }
+                        }
+                        else
+                        {
+                            bottomBar2.GoBack();
+                        }
+                    }else{
+                        if (bottomBar.IsFirstSentence())
+                        {
+                            if(history.Count > 1)
+                            {
+                                bottomBar.StopTyping();
+                                bottomBar.HideSprites();
+                                history.RemoveAt(history.Count - 1);
+                                StoryScene scene = history[history.Count - 1];
+                                history.RemoveAt(history.Count - 1);
+                                PlayScene(scene, scene.sentences.Count - 2, false);
+                            }
+                        }
+                        else
+                        {
+                            bottomBar.GoBack();
+                        }
+                    }
+                }else{
+                    if(BottomBar2.activeInHierarchy == true ){
+                        
                         if(history.Count > 1)
                         {
-                            bottomBar2.StopTyping();
                             bottomBar2.HideSprites();
                             history.RemoveAt(history.Count - 1);
                             StoryScene scene = history[history.Count - 1];
                             history.RemoveAt(history.Count - 1);
                             PlayScene(scene, scene.sentences.Count - 2, false);
                         }
-                    }
-                    else
-                    {
                         bottomBar2.GoBack();
-                    }
-                }else{
-                    if (bottomBar.IsFirstSentence())
-                    {
+                    }else{
                         if(history.Count > 1)
                         {
-                            bottomBar.StopTyping();
                             bottomBar.HideSprites();
                             history.RemoveAt(history.Count - 1);
                             StoryScene scene = history[history.Count - 1];
                             history.RemoveAt(history.Count - 1);
                             PlayScene(scene, scene.sentences.Count - 2, false);
                         }
-                    }
-                    else
-                    {
                         bottomBar.GoBack();
                     }
                 }
@@ -222,6 +256,8 @@ public class GameController : MonoBehaviour
                 {
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
+                    // Choose2.SetActive(true); 
+                    // Choose.SetActive(false); 
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar.Show2();
@@ -229,6 +265,8 @@ public class GameController : MonoBehaviour
                 else{
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(true);
+                    // Choose2.SetActive(false); 
+                    // Choose.SetActive(true);
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar.Show();
@@ -265,7 +303,14 @@ public class GameController : MonoBehaviour
         else if (scene is ChooseScene)
         {
             state = State.CHOOSE;
+
             chooseController.SetupChoose(scene as ChooseScene);
+
+            // if(Choose2.activeInHierarchy == true){
+            //     chooseController2.SetupChoose(scene as ChooseScene);
+            // }else{
+            //     chooseController.SetupChoose(scene as ChooseScene);
+            // }
         }
 
     }

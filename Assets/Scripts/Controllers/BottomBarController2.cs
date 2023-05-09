@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using TMPro;
 
@@ -67,14 +68,18 @@ public class BottomBarController2 : MonoBehaviour
     public void PlayScene(StoryScene scene, int sentenceIndex = -1, bool isAnimated = true)
     {
         currentScene = scene;
-        this.sentenceIndex = sentenceIndex;
-        PlayNextSentence(isAnimated);
+        if(currentScene.sentences.Count > 0){
+            this.sentenceIndex = sentenceIndex;
+            PlayNextSentence(isAnimated);
+        }
     }
 
     public void PlayNextSentence(bool isAnimated = true)
     {
-        sentenceIndex++;
-        PlaySentence(isAnimated);
+        if(currentScene.sentences.Count > 0){
+            sentenceIndex++;
+            PlaySentence(isAnimated);
+        }
     }
 
     public void GoBack()
