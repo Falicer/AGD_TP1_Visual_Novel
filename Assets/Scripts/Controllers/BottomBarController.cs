@@ -145,9 +145,9 @@ public class BottomBarController : MonoBehaviour
             speedFactor = 0.01f;
         }
         if(sentence.speaker.speakerName == "Author"){
-            barText.fontStyle = FontStyle.BoldAndItalic;
+            barText.fontStyle = (FontStyles)FontStyle.BoldAndItalic;
         }else{
-            barText.fontStyle = FontStyle.Normal;
+            barText.fontStyle = (FontStyles)FontStyle.Normal;
         }
         typingCoroutine = StartCoroutine(TypeText(sentence.text));
         personNameText.text = sentence.speaker.speakerName;
