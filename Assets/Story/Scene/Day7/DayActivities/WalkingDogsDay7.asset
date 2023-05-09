@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: WalkingDogsDay7
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hey Rosa!
+    speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Woof woof woof!
+    speaker: {fileID: 11400000, guid: 50d6144b02c04c140a30c29ee1872155, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh hi Chad! What are you doing out here?
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Just running a few miles, I\u2019ve got to keep myself moving haha."
+    speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yeah how else are you supposed to keep those muscles.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 2
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Haha exactly.
+    speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>Did I actually say that out loud?
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Welp I gotta go!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oh alright then, bye Rosa! And bye doggies! They\u2019re cute."
+    speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thanks.. Bye!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You walk away quickly. The dogs are having a hard time keeping up
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>So embarrassing..
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: ea798296753b31a43adc71cbcd496e64, type: 3}
+  nextScene: {fileID: 11400000, guid: f3f4c4197ca7f1b4484eff7c2a7cbf9d, type: 2}
