@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: WakeUpDay2
+  m_Name: StreetDay2Home
   m_EditorClassIdentifier: 
   sentences:
-  - text: Your phone alarm rings.
+  - text: You head home.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 8300000, guid: cd98f66e1c8bb07459ac38aee512c119, type: 3}
-  background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
-  nextScene: {fileID: 11400000, guid: 6872c1274f3b21e4a88d520f861fbd90, type: 2}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: ea798296753b31a43adc71cbcd496e64, type: 3}
+  nextScene: {fileID: 11400000, guid: 68b5bb8751c4df4459b86f5a764d1efe, type: 2}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: SchoolDay2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: For today's assignment you are going to work in pairs.
+    speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>I wish i knew someone here...</i>
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You look around the room. Everyone is already grouped up.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Your eyes meet with a girl across the classroom. She walks over to your
+      table.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Guess we're partners! I'm Mimi, you're the new girl right?
+    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yeah! Nice to meet you! I'm Rosa
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You solve the math problem together.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Great job! You're quite smart aren't you?
+    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We worked as a team!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Bell rings
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: See ya around newbie!
+    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 85038e9add584f44b8bfcf2aee95f3c3, type: 3}
+  nextScene: {fileID: 11400000, guid: bdf54273d5d79a240bc3fc114cc4dfc9, type: 2}
