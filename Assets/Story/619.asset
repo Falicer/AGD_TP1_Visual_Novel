@@ -15,5 +15,7 @@ MonoBehaviour:
   labels:
   - text: REY MYSTERIO!
     nextScene: {fileID: 11400000, guid: 4438e86fbe16f8a4b854e1b153a57626, type: 2}
-  - text: 619!
+  - text: Size limitation
+    nextScene: {fileID: 11400000, guid: f7b0e2a561dc6824592f55d4f7b62c6a, type: 2}
+  - text: Wooowwiee
     nextScene: {fileID: 11400000, guid: f7b0e2a561dc6824592f55d4f7b62c6a, type: 2}
