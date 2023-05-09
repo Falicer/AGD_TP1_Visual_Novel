@@ -12,12 +12,12 @@ public class GameController : MonoBehaviour
     public BottomBarController2 bottomBar2;
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
-    // public ChooseController2 chooseController2;
+    public ChooseController2 chooseController2;
     public AudioController audioController;
     public GameObject BottomBar;
     public GameObject BottomBar2;
-    // public GameObject Choose; 
-    // public GameObject Choose2;
+    public GameObject Choose; 
+    public GameObject Choose2;
 
     public DataHolder data;
 
@@ -256,8 +256,8 @@ public class GameController : MonoBehaviour
                 {
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
-                    // Choose2.SetActive(true); 
-                    // Choose.SetActive(false); 
+                    Choose2.SetActive(true); 
+                    Choose.SetActive(false); 
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar.Show2();
@@ -265,8 +265,8 @@ public class GameController : MonoBehaviour
                 else{
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(true);
-                    // Choose2.SetActive(false); 
-                    // Choose.SetActive(true);
+                    Choose2.SetActive(false); 
+                    Choose.SetActive(true);
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar.Show();
@@ -304,13 +304,11 @@ public class GameController : MonoBehaviour
         {
             state = State.CHOOSE;
 
-            chooseController.SetupChoose(scene as ChooseScene);
-
-            // if(Choose2.activeInHierarchy == true){
-            //     chooseController2.SetupChoose(scene as ChooseScene);
-            // }else{
-            //     chooseController.SetupChoose(scene as ChooseScene);
-            // }
+            if(Choose2.activeInHierarchy == true){
+                chooseController2.SetupChoose(scene as ChooseScene);
+            }else{
+                chooseController.SetupChoose(scene as ChooseScene);
+            }
         }
 
     }
