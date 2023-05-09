@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public GameScene currentScene;
     public BottomBarController bottomBar;
     public BottomBarController2 bottomBar2;
+    public BottomBarController3 bottomBar3;
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
     public ChooseController2 chooseController2;
@@ -257,6 +258,8 @@ public class GameController : MonoBehaviour
                     Choose.SetActive(false); 
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
+                    bottomBar3.ClearText();
+                    bottomBar2.Show();
                 }else if(storyScene.background.ToString().Contains("Photo") || storyScene.background.ToString().Contains("photo")){
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(false);
@@ -265,6 +268,8 @@ public class GameController : MonoBehaviour
                     Choose.SetActive(false); 
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
+                    bottomBar3.ClearText();
+                    bottomBar3.Show();
                 }
                 else{
                     BottomBar2.SetActive(false);
@@ -274,6 +279,7 @@ public class GameController : MonoBehaviour
                     Choose.SetActive(true);
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
+                    bottomBar3.ClearText();
                     bottomBar.Show();
                 }
 
