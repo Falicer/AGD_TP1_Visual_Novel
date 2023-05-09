@@ -226,14 +226,15 @@ public class GameController : MonoBehaviour
                 if(scene is ChooseScene){
 
                 }else{
-                bottomBar.Hide2();
+                    bottomBar.Hide2();
+                    bottomBar2.Hide();
                 }
             }else{
                 if(scene is ChooseScene)
                 {
 
                 }else{
-                bottomBar.Hide();
+                    bottomBar.Hide();
                 }
             }
             yield return new WaitForSeconds(1f);
