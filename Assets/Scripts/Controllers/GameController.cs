@@ -226,7 +226,6 @@ public class GameController : MonoBehaviour
                 if(scene is ChooseScene){
 
                 }else{
-                    bottomBar.Hide2();
                     bottomBar2.Hide();
                 }
             }else{
