@@ -10,6 +10,7 @@ public class ChooseController2 : MonoBehaviour
     private RectTransform rectTransform;
     private Animator animator;
     private float labelHeight = -1;
+    private float totalLabelSize;
 
     void Start()
     {
@@ -22,9 +23,10 @@ public class ChooseController2 : MonoBehaviour
         DestroyLabels();
         animator.SetTrigger("Show2");
         
+
         for(int index = 0; index < scene.labels.Count; index++)
         {
-            
+            //scene.labels[index].
         }
 
         for(int index = 0; index < scene.labels.Count; index++)
