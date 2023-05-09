@@ -12,6 +12,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
   m_Name: Chat2Day3
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - text: Sorry we lost most of the games haha
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hey no worries, I was playing really bad lol let\u2019s just blame me"
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Haha sure
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: How was your day?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: It sucked, but I feel better now
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh no. Do you want to talk about it?
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Nah its fine. How was yours?
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Just a normal boring school day.
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: I strangely wish I had one of those today.
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Where are you from actually? '
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   background: {fileID: 21300000, guid: f053fe40fe4870c4a82405a1d56fde96, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 0dcb557149caeb4458a9e5013199d9bf, type: 2}

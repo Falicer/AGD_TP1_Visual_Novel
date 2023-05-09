@@ -13,36 +13,35 @@ MonoBehaviour:
   m_Name: ChoiceMallDay3
   m_EditorClassIdentifier: 
   sentences:
-  - text: "I didn\u2019t think you\u2019d actually say yes! Guess you\u2019re not
-      as much of a goody two-shoes as I thought. Right on!"
-    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Let's go!
-    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: You go to the mall with Mimi and her friend. It's not busy but there's
-      a few people shopping.
+  - text: You go to the mall with Mimi. There's a few people shopping but it's not
+      very busy.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I like this top!
     speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: It suits you! You should totally get it.
-    speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Time passes quickly while shopping. It's lots of fun.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: <i>hope I didn't miss much at school...</i>
@@ -50,5 +49,5 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: cbf563172e07577439e1c2c91333bcb1, type: 3}
-  nextScene: {fileID: 0}
+  background: {fileID: 21300000, guid: 3133f69584af5f0449cb7596d9710732, type: 3}
+  nextScene: {fileID: 11400000, guid: 5c8d4daade7db7e408acac6a1609d5b0, type: 2}
