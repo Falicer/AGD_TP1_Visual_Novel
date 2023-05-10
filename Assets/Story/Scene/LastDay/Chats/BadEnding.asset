@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BadEnding
   m_EditorClassIdentifier: 
   sentences:
-  - text: '*send second nude*'
+  - text: '*Sends a second nude*'
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
