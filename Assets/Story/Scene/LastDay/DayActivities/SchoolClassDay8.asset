@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: SchoolClassDay8
   m_EditorClassIdentifier: 
   sentences:
-  - text: The class is boring and your mind keeps wandering.
+  - text: English class is boring and your mind keeps wandering.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>It's hard to concentrate.. I don't imderstamd why mom is freaking out
+  - text: <i>It's hard to concentrate.. I don't understand why mom is freaking out
       about Wolff.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
@@ -34,7 +34,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: After school you head home.
+  - text: When classes end you get to head home.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}

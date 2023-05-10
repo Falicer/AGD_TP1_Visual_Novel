@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RoomAfternoonDay8
   m_EditorClassIdentifier: 
   sentences:
-  - text: You log on Gametalk to an instant response message from Wolf.
+  - text: You log on GameTalk to an instant response message from Wolf.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}

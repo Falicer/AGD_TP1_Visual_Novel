@@ -29,7 +29,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   - text: "The fight with my mom yesterday. She doesn\u2019t understand me, she thinks
-      we chat too much."
+      we chat too much"
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
@@ -65,7 +65,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: "I\u2019m just scared she\u2019ll take my laptop."
+  - text: "I\u2019m just scared she\u2019ll take my laptop"
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
