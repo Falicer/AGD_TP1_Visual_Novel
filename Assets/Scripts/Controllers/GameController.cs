@@ -94,7 +94,11 @@ public class GameController : MonoBehaviour
                         bottomBar2.StopTyping();
                         if (bottomBar2.IsLastSentence())
                         {
-                            PlayScene((currentScene as StoryScene).nextScene);
+                            if((currentScene as StoryScene).nextScene != null){
+                                PlayScene((currentScene as StoryScene).nextScene);
+                            }else{
+                                SceneManager.LoadScene(menuScene);
+                            }
                         }
                         else
                         {
@@ -114,7 +118,11 @@ public class GameController : MonoBehaviour
                         bottomBar3.StopTyping();
                         if (bottomBar3.IsLastSentence())
                         {
-                            PlayScene((currentScene as StoryScene).nextScene);
+                            if((currentScene as StoryScene).nextScene != null){
+                                PlayScene((currentScene as StoryScene).nextScene);
+                            }else{
+                                SceneManager.LoadScene(menuScene);
+                            }
                         }
                         else
                         {
@@ -133,7 +141,11 @@ public class GameController : MonoBehaviour
                         bottomBar.StopTyping();
                         if (bottomBar.IsLastSentence())
                         {
-                            PlayScene((currentScene as StoryScene).nextScene);
+                            if((currentScene as StoryScene).nextScene != null){
+                                PlayScene((currentScene as StoryScene).nextScene);
+                            }else{
+                                SceneManager.LoadScene(menuScene);
+                            }
                         }
                         else
                         {
