@@ -51,6 +51,9 @@ public class GameController : MonoBehaviour
             if(BottomBar2.activeInHierarchy == true)
             {
                 bottomBar2.SetSentenceIndex(data.sentence - 1);
+            }else if(BottomBar3.activeInHierarchy == true)
+            {
+                bottomBar3.SetSentenceIndex(data.sentence - 1);
             }else{
                 bottomBar.SetSentenceIndex(data.sentence - 1);
             }
@@ -104,8 +107,27 @@ public class GameController : MonoBehaviour
                     {
                         bottomBar2.SpeedUp();
                     }
-                }
-                else{
+                }else if(BottomBar3.activeInHierarchy == true)
+                {
+                    if (bottomBar3.IsCompleted())
+                    {
+                        bottomBar3.StopTyping();
+                        if (bottomBar3.IsLastSentence())
+                        {
+                            PlayScene((currentScene as StoryScene).nextScene);
+                        }
+                        else
+                        {
+                            bottomBar3.PlayNextSentence();
+                            PlayAudio((currentScene as StoryScene)
+                                .sentences[bottomBar3.GetSentenceIndex()]);
+                        }
+                    }
+                    else
+                    {
+                        bottomBar3.SpeedUp();
+                    }
+                }else{
                     if (bottomBar.IsCompleted())
                     {
                         bottomBar.StopTyping();
@@ -146,6 +168,23 @@ public class GameController : MonoBehaviour
                         {
                             bottomBar2.GoBack();
                         }
+                    }else if(BottomBar3.activeInHierarchy == true ){
+                        if (bottomBar3.IsFirstSentence())
+                        {
+                            if(history.Count > 1)
+                            {
+                                bottomBar3.StopTyping();
+                                bottomBar3.HideSprites();
+                                history.RemoveAt(history.Count - 1);
+                                StoryScene scene = history[history.Count - 1];
+                                history.RemoveAt(history.Count - 1);
+                                PlayScene(scene, scene.sentences.Count - 2, false);
+                            }
+                        }
+                        else
+                        {
+                            bottomBar3.GoBack();
+                        }
                     }else{
                         if (bottomBar.IsFirstSentence())
                         {
@@ -176,6 +215,17 @@ public class GameController : MonoBehaviour
                             PlayScene(scene, scene.sentences.Count - 2, false);
                         }
                         bottomBar2.GoBack();
+                    }else if(BottomBarController3.activeInHierarchy == true ){
+                        
+                        if(history.Count > 1)
+                        {
+                            bottomBar3.HideSprites();
+                            history.RemoveAt(history.Count - 1);
+                            StoryScene scene = history[history.Count - 1];
+                            history.RemoveAt(history.Count - 1);
+                            PlayScene(scene, scene.sentences.Count - 2, false);
+                        }
+                        bottomBar3.GoBack();
                     }else{
                         if(history.Count > 1)
                         {
@@ -200,6 +250,13 @@ public class GameController : MonoBehaviour
                     SaveData data = new SaveData
                     {
                         sentence = bottomBar2.GetSentenceIndex(),
+                        prevScenes = historyIndicies
+                    };
+                    SaveManager.SaveGame(data);
+                }else if(BottomBar3.activeInHierarchy == true){
+                    SaveData data = new SaveData
+                    {
+                        sentence = bottomBar3.GetSentenceIndex(),
                         prevScenes = historyIndicies
                     };
                     SaveManager.SaveGame(data);
