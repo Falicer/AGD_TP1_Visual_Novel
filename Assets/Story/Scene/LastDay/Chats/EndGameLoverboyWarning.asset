@@ -13,11 +13,20 @@ MonoBehaviour:
   m_Name: EndGameLoverboyWarning
   m_EditorClassIdentifier: 
   sentences:
-  - text: "This game only represents a small scenario of the possibilities and strategies
-      a loverboy would use on a teenage girl like you. Girls that fall victim to
-      a loverboy are often forced to do drugs and have sex against their will. Whatever
-      happens or has happened to you, you\u2019re not stupid and you\u2019re not
-      alone. Possession of child pornography, human trafficking and domestic violence
+  - text: 'This game only represents a small scenario of the possibilities and strategies
+      a loverboy would use on a teenage girl like you. '
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Girls that fall victim to a loverboy are often forced to do drugs and
+      have sex against their will. Whatever happens or has happened to you, you\u2019re
+      not stupid and you\u2019re not alone. "
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Possession of child pornography, human trafficking and domestic violence
       are all creditable offenses. Please contact anyone: a parent, a friend or go
       to the police immediately.  You. Are. Strong. We\u2019ll get through this. "
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}

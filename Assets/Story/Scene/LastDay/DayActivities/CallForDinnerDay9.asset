@@ -18,7 +18,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You say goodbye to Wolf and go downstairs for dinner
+  - text: You quickly say goodbye to Wolf and go downstairs for dinner.
     speaker: {fileID: 0}
     actions: []
     music: {fileID: 0}
