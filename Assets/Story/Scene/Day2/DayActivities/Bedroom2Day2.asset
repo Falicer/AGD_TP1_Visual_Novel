@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bedroom2Day2
   m_EditorClassIdentifier: 
   sentences:
-  - text: You walk to your laptop.
+  - text: You walk over to your laptop. Let's see what your friends are upto!
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}

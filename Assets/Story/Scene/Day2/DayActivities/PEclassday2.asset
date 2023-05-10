@@ -23,12 +23,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>I can't let this knock me down... But it sucks so much.</i>
+  - text: <i>I can't let this knock me down... But it sucks so much.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>I can't wait to go home.</i>
+  - text: <i>I can't wait to go home.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BackhomeDay2
   m_EditorClassIdentifier: 
   sentences:
-  - text: You head to your room.
+  - text: You walk up the stairs to your room.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
