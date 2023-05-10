@@ -227,26 +227,11 @@ public class GameController : MonoBehaviour
         currentScene = scene;
         if(isAnimated)
         {
-            if(BottomBar2.activeInHierarchy == true){
-                if(scene is ChooseScene){
+            if(scene is ChooseScene)
+            {
 
-                }else{
-                    bottomBar.Hide2();
-                }
-            }else if(BottomBar3.activeInHierarchy == true){
-                if(scene is ChooseScene){
-
-                }else{
-                    bottomBar3.Hide();
-                }
-            }
-            else{
-                if(scene is ChooseScene)
-                {
-
-                }else{
-                    bottomBar.Hide();
-                }
+            }else{
+                bottomBar.Hide();
             }
             yield return new WaitForSeconds(1f);
         }
@@ -290,7 +275,7 @@ public class GameController : MonoBehaviour
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
                 }
-
+                bottomBar.Show();
                 yield return new WaitForSeconds(1f);
                 //ClearLog();
                 //Debug.Log(storyScene.background.ToString());
@@ -316,6 +301,7 @@ public class GameController : MonoBehaviour
                     BottomBar3.SetActive(false);
                     bottomBar2.ClearText();
                 }
+                bottomBar.Show();
                 // ClearLog();
                 // Debug.Log(storyScene.background.ToString());
             }
