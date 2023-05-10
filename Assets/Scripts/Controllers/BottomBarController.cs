@@ -19,7 +19,7 @@ public class BottomBarController : MonoBehaviour
     public GameObject spritesPrefab;
 
     private Coroutine typingCoroutine;
-    private float speedFactor = 1f;
+    private float speedFactor = 0.5f;
 
     private enum State
     {
@@ -117,7 +117,7 @@ public class BottomBarController : MonoBehaviour
     public void SpeedUp()
     {
         state = State.SPEEDED_UP;
-        speedFactor = 0.25f;
+        speedFactor = 0.2f;
     }
 
     public void StopTyping()
@@ -138,7 +138,7 @@ public class BottomBarController : MonoBehaviour
     private void PlaySentence(bool isAnimated = true)
     {
         StoryScene.Sentence sentence = currentScene.sentences[sentenceIndex];
-        speedFactor = 1f;
+        speedFactor = 0.5f;
         if(sentence.text.Contains("<sprite=") || sentence.text.Contains("<i>"))
         {
             speedFactor = 0.01f;
