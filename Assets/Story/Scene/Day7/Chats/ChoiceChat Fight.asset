@@ -15,5 +15,5 @@ MonoBehaviour:
   labels:
   - text: Tell about fight
     nextScene: {fileID: 11400000, guid: 60d529a379415724e937e77b0639fd50, type: 2}
-  - text: Don't tell
+  - text: Don't tell about fight
     nextScene: {fileID: 11400000, guid: 76b20d82c0c4be44f918a3085dbac9f9, type: 2}
