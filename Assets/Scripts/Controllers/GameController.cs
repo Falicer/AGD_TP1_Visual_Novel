@@ -215,7 +215,7 @@ public class GameController : MonoBehaviour
                             PlayScene(scene, scene.sentences.Count - 2, false);
                         }
                         bottomBar2.GoBack();
-                    }else if(BottomBarController3.activeInHierarchy == true ){
+                    }else if(BottomBar3.activeInHierarchy == true ){
                         
                         if(history.Count > 1)
                         {
