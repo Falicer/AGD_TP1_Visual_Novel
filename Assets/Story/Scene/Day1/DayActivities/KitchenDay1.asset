@@ -44,9 +44,54 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
       spriteIndex: 0
       actionType: 3
+      coords: {x: 800, y: 200}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thanks for the food Mom, I'm gonna head to school!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Have a nice first day at school honey! I know it's scary, but just be yourself!
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The other kids will like you in no time!
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I've packed your lunch, it's in your backpack!
+    speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thanks mom! See you later!
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: a3289dc0e6400a946a676745c541a92a, type: 3}
-  nextScene: {fileID: 11400000, guid: 7e998cc4c2f2a59439302af4f60fae00, type: 2}
+  nextScene: {fileID: 11400000, guid: 510fadabfd1442842a1ad2427ff329b4, type: 2}
