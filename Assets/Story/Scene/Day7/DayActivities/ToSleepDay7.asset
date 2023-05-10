@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: Bedroom2Day6
+  m_Name: ToSleepDay7
   m_EditorClassIdentifier: 
   sentences:
-  - text: You walk over to your desk and sit down on your chair.
+  - text: You turn your laptop off and walk over to your bed.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You spin around on your chair before opening your laptop.
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+  - text: I have school again tomorrow.. Better get to bed.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: cea3a016d34fbe04eaa353e44726cb68, type: 3}
-  nextScene: {fileID: 11400000, guid: b1c8932c27cfcfe46a16efb6f2135c45, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

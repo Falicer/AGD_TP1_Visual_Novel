@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Street1Day6
   m_EditorClassIdentifier: 
   sentences:
-  - text: You head to the mall.
+  - text: You step into the car with your Mom and head over to the mall.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
