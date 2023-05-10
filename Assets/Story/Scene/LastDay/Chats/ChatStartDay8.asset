@@ -10,98 +10,75 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: ChatWolff2Day2
+  m_Name: ChatStartDay8
   m_EditorClassIdentifier: 
   sentences:
-  - text: Well played! You're very good at the game
+  - text: Hey how are you cutie?
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: You said that yesterday already haha
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Not so great.
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: How old are you actually? I'm 17
+  - text: You want to talk about it?
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Cool I'm 16
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: "The fight with my mom yesterday. She doesn\u2019t understand me, she thinks
+      we chat too much."
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Nice
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: So what else you do besides being really good at Bulletstorm? Haha
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: I like baking, playing guitar and I have two doggies I like walking with
+  - text: "That I shouldn\u2019t be talking with you"
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Oh cute! What kind of dogs are they?
+  - text: Parents can be such a pain in the ass
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Two dachshunds, they're 5 and 2
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: "She\u2019ll never understand what we have, you really shouldn\u2019t listen
+      to her you know"
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Otherwise we can never talk again :/
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: "I can\u2019t, I need you"
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: So cool! I love dogs but can't have any cuz of my mom :(
+  - text: She just wants to see us apart, you see that right?
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: What are their names?
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Ah sucks. They're Gertrude and Meepi
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: "I\u2019m just scared she\u2019ll take my laptop."
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: They have their own insta actually
+  - text: "Just don\u2019t tell your mom more about us, it\u2019ll be fine, okay?"
+    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
+  - text: Okay I'll do that. Thanks x
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Gertrude and Meepi? Genius haha
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: What's the @?
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: '@gertrudeandmeepiofficial'
-    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Followed! They're so cute lol
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Just like their owner ;) hahaha
-    speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: ff14db9c0f02cd24d90382691d144292, type: 3}
-  nextScene: {fileID: 11400000, guid: b5786c09967afc84698783a6feeadfdb, type: 2}
+  nextScene: {fileID: 11400000, guid: 976c231b5d861ab4982caf7a979a3834, type: 2}

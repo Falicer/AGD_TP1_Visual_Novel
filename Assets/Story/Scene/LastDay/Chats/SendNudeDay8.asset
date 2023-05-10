@@ -10,8 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: NewStoryScene
+  m_Name: SendNudeDay8
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: ' '
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: cdf6cf586751b3c4f8f32745462272fb, type: 3}
+  nextScene: {fileID: 11400000, guid: 2cd715a9c5175c34095ba7465f36e0c3, type: 2}

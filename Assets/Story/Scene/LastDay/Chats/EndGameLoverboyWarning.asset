@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: EndGameLoverboyWarning
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "This game only represents a small scenario of the possibilities and strategies
+      a loverboy would use on a teenage girl like you. Girls that fall victim to
+      a loverboy are often forced to do drugs and have sex against their will. Whatever
+      happens or has happened to you, you\u2019re not stupid and you\u2019re not
+      alone. Possession of child pornography, human trafficking and domestic violence
+      are all creditable offenses. Please contact anyone: a parent, a friend or go
+      to the police immediately.  You. Are. Strong. We\u2019ll get through this. "
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
+  nextScene: {fileID: 0}

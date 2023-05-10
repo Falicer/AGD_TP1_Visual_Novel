@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
+  m_Name: SchoolClassDay8
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The class is boring and your mind keeps wandering.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: <i>It's hard to concentrate.. I don't imderstamd why mom is freaking out
+      about Wolff.
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '<i>At least he takes the time to talk to me. I wonder what he is up to. '
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Your classes go by as you dream about your new boyfriend.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: After school you head home.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 85038e9add584f44b8bfcf2aee95f3c3, type: 3}
+  nextScene: {fileID: 11400000, guid: bc9e2d013fae5c845aa8c21c452667ea, type: 2}
