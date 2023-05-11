@@ -4598,7 +4598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Raekwon Gerald
+  m_text: Raekwon Gerold
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00ee29a0e3d0e9e488486c0f1815fd0f, type: 2}
   m_sharedMaterial: {fileID: 517446431333647536, guid: 00ee29a0e3d0e9e488486c0f1815fd0f, type: 2}
