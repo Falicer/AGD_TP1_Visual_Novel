@@ -63,7 +63,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: "Send me a photo or we\u2019re done"
+  - text: Now it's your turn to send a photo ;)
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
@@ -73,8 +73,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: "Send me another photo or I will send the one I have to your school, your
-      parents, everybody. I\u2019ll post it online for all to see"
+  - text: "Send me another photo or I will leak the one I have. I\u2019ll post it
+      online for all to see"
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}
     actions: []
     music: {fileID: 0}
