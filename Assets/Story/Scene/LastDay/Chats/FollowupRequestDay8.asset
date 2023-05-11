@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: Send another Nude
-    nextScene: {fileID: 11400000, guid: 49f35b983d4aa3148ac8427b3f819833, type: 2}
+    nextScene: {fileID: 11400000, guid: f9dd1334a97ccb0448da982bd69ab44f, type: 2}
   - text: Don't send another
     nextScene: {fileID: 11400000, guid: e0d77dd0ea46b8744a606f824eeb54b5, type: 2}
