@@ -27,7 +27,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: a352d1c6ee9fe4643958b2e4afba33d2, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 6863223e02e30b54284c6997555a3366, type: 3}
   - text: "Yeah you\u2019re lucky, you don\u2019t have to go to school.. Well, at
       least I have a weekend off."
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}

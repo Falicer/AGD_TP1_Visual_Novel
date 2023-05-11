@@ -38,7 +38,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 3b9c9d173e00df94ebac25880eb70135, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 5270e073f22661c4d9f1444296808662, type: 3}
   - text: You feel like sinking into the floor...
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []

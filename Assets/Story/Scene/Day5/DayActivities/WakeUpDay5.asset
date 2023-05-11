@@ -22,7 +22,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
   - text: "Shit. Really? What\u2019s the time?"
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:

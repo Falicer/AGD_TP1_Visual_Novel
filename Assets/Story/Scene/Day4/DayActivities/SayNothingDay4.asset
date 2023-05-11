@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SayNothingDay4
   m_EditorClassIdentifier: 
   sentences:
-  - text: <i>I should say quiet..</i>
+  - text: <i>I should say quiet..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}

@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: 'The school is very pretty. Nice architecture and pretty pink trees. '
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: 9944cfadcc924bc4f8dd5d8e3a6b9f5c, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: <i>I wonder who I'll meet here.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}

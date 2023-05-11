@@ -21,7 +21,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 0, y: 200}
       moveSpeed: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 9944cfadcc924bc4f8dd5d8e3a6b9f5c, type: 3}
     sound: {fileID: 0}
   - text: Hi sleepyhead. So, do you want to?
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}

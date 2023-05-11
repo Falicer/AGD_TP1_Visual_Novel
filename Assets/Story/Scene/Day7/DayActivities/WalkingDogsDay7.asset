@@ -32,7 +32,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 135000b4e36b2214987c2076f96c9939, type: 3}
   - text: Oh hi Chad! What are you doing out here?
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
@@ -117,7 +117,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: d43dd70962103cf4a8584e1db2661423, type: 3}
   - text: <i>So embarrassing..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []

@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Alarm rings
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 9944cfadcc924bc4f8dd5d8e3a6b9f5c, type: 3}
     sound: {fileID: 8300000, guid: cd98f66e1c8bb07459ac38aee512c119, type: 3}
   background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
   nextScene: {fileID: 11400000, guid: a3d3af8cbd6294e4b98e080fa5f4e163, type: 2}

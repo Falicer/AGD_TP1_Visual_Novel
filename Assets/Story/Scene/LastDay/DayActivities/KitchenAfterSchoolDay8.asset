@@ -19,7 +19,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You walk the dogs and head upstairs as soon as you get back.
+  - text: Woof woof!
+    speaker: {fileID: 11400000, guid: 50d6144b02c04c140a30c29ee1872155, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: d43dd70962103cf4a8584e1db2661423, type: 3}
+  - text: You walk the dogs quickly and head upstairs as soon as you get back.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}

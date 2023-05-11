@@ -18,7 +18,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>Crap, my water bottle broke. Everything is soaked..</i>
+  - text: <i>Crap, my water bottle broke. Everything is soaked..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
@@ -29,7 +29,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>Guess I kinda saved it.</i>
+  - text: <i>Guess I kinda saved it.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
