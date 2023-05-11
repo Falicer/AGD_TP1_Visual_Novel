@@ -1127,7 +1127,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1352613379}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: HideOptions
+        m_MethodName: HideCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
