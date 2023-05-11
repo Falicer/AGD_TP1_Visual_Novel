@@ -20,7 +20,12 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: That's too bad. Guess I'll go by myself.
     speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Alright, have fun.

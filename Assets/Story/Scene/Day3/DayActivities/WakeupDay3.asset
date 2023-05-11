@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WakeupDay3
   m_EditorClassIdentifier: 
   sentences:
-  - text: <i>Another day begins..</i>
+  - text: <i>Another day begins..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}

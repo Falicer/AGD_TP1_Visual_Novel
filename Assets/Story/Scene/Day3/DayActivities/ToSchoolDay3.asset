@@ -18,12 +18,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>The weather is nice today.</i>
+  - text: <i>The weather is nice today.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>I wish I could just chill in the sun.</i>
+  - text: <i>I wish I could just chill in the sun.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}

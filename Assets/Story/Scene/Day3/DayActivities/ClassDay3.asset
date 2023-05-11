@@ -24,7 +24,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>Shit I wasn't paying attention..</i>
+  - text: <i>Shit I wasn't paying attention..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
@@ -44,19 +44,29 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>I hate this, why did he have to pick me?!</i>
+  - text: <i>I hate this, why did he have to pick me?!
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: You're in biology class, dumbass!
     speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "That\u2019s very uncalled for. Stop laughing."
     speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: The laughing slowly dies down.
@@ -74,7 +84,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: cd080b11ec6a8e14db450376b06ceb1e, type: 3}
-  - text: <i>Finally, thank god. I need to get out of here.</i>
+  - text: <i>Finally, thank god. I need to get out of here.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
