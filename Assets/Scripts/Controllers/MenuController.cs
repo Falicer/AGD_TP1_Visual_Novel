@@ -59,10 +59,16 @@ public class MenuController : MonoBehaviour
         Application.Quit();
     }
 
-    // public void ShowCredits() 
-    // {
+    public void ShowCredits() 
+    {
+        animator.SetTrigger("ShowCredits");
+        _window = 1;
+    }
 
-    // }
+    public void HideCredits(){
+        animator.SetTrigger("HideCredits");
+        _window = 0;
+    }
 
     public void OnMusicChanged(float value)
     {
