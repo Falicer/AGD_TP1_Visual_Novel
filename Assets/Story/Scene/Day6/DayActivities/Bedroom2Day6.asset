@@ -16,8 +16,8 @@ MonoBehaviour:
   - text: You walk over to your desk and sit down on your chair.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
-    sound: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
+    music: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
+    sound: {fileID: 0}
   - text: You spin around on your chair before opening your laptop.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
