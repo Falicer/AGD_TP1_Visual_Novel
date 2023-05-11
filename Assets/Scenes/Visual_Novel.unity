@@ -1980,8 +1980,8 @@ GameObject:
   - component: {fileID: 1376662700}
   - component: {fileID: 1376662704}
   - component: {fileID: 1376662703}
-  - component: {fileID: 1376662702}
   - component: {fileID: 1376662701}
+  - component: {fileID: 1376662702}
   m_Layer: 5
   m_Name: BottomBar3
   m_TagString: Untagged
@@ -2366,8 +2366,8 @@ GameObject:
   - component: {fileID: 1840885358}
   - component: {fileID: 1840885362}
   - component: {fileID: 1840885361}
-  - component: {fileID: 1840885359}
   - component: {fileID: 1840885363}
+  - component: {fileID: 1840885359}
   m_Layer: 5
   m_Name: BottomBar2
   m_TagString: Untagged
