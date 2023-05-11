@@ -23,7 +23,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: My nude photos.. Theyre all over the internet
+  - text: My nudes.. Theyre all over the internet
     speaker: {fileID: 11400000, guid: 5824cec66826d5d41a2756c7c0a22128, type: 2}
     actions: []
     music: {fileID: 0}
@@ -33,8 +33,28 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: That guy, Is he W0lff?
+  - text: I met this guy through Bulletstorm. We hit it off and I really liked him.
+    speaker: {fileID: 11400000, guid: 5824cec66826d5d41a2756c7c0a22128, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: He asked for pictures, I sent them and now they are everywhere online.
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can't believe it!
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Whats his name?
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: W0lff..
+    speaker: {fileID: 11400000, guid: 5824cec66826d5d41a2756c7c0a22128, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -43,7 +63,12 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
-  - text: 'Everything will be okay Sasha. You should go to the police.. '
+  - text: I do.. He tried the same with me..
+    speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'You should go to the police.. Everything will be okay Sasha. '
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
     music: {fileID: 0}
