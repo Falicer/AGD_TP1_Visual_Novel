@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jake
   m_EditorClassIdentifier: 
   speakerName: Jake
-  textColor: {r: 0.48207545, g: 0.2783019, b: 1, a: 0}
+  textColor: {r: 0.65754706, g: 0.5226415, b: 1, a: 0}
   sprites:
   - {fileID: 21300000, guid: 2d9cfc8d291b0d746a122b9dcf7391dd, type: 3}
   - {fileID: 21300000, guid: b86c235916ff2f74d91d1b07a3326f13, type: 3}
