@@ -23,32 +23,21 @@ public class ChooseController2 : MonoBehaviour
     {
         DestroyLabels();
         animator.SetTrigger("Show2");
-
         for(int index = 0; index < scene.labels.Count; index++)
         {
-            totalLabelSize += scene.labels[index].text.Length;
-        }
-
-        widthBetween = rectTransform.rect.width - totalLabelSize - 50;
-        widthBetween = widthBetween / scene.labels.Count;
-
-
-        for(int index = 0; index < scene.labels.Count; index++)
-        {
-            ChooseLabelController2 newLabel = Instantiate(label.gameObject, transform).GetComponent<ChooseLabelController2>();
+            ChooseLabelController newLabel = Instantiate(label.gameObject, transform).GetComponent<ChooseLabelController>();
 
             if(labelHeight == -1)
             {
                 labelHeight = newLabel.GetHeight();
             }
 
-            // 1, 1 to put em next to each other??? ---- scene.labels[index].text.textBounds
-            newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(1, 1), index * widthBetween);
+            newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(index, scene.labels.Count));
 
         }
 
         Vector2 size = rectTransform.sizeDelta;
-        size.y = 2 * labelHeight / 4 * 3;
+        size.y = (scene.labels.Count + 2) * labelHeight;
         rectTransform.sizeDelta = size;
         
     }
@@ -72,7 +61,32 @@ public class ChooseController2 : MonoBehaviour
 
     private float CalculateLabelPosition(int labelIndex, int labelCount)
     {
-        return labelHeight / 2;
+        if(labelCount %2 == 0)
+        {
+            if(labelIndex < labelCount / 2)
+            {
+                return labelHeight * (labelCount / 2 - labelIndex - 1) + labelHeight / 2;
+            }
+            else
+            {
+                return -1 * (labelHeight * (labelIndex - labelCount / 2) + labelHeight / 2);
+            }
+        }
+        else
+        {
+            if (labelIndex < labelCount / 2)
+            {
+                return labelHeight * (labelCount / 2 - labelIndex);
+            }
+            else if (labelIndex > labelCount / 2)
+            {
+                return -1 * (labelHeight * (labelIndex - labelCount / 2));
+            }
+            else
+            {
+                return 0;
+            }
+        }
     }
 
     private void DestroyLabels()

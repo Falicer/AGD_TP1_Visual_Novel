@@ -22,15 +22,14 @@ public class ChooseLabelController2 : MonoBehaviour, IPointerClickHandler, IPoin
         return textMesh.rectTransform.sizeDelta.y * textMesh.rectTransform.localScale.y;
     }
 
-    public void Setup(ChooseScene.ChooseLabel label, ChooseController2 controller, float y, float x)
+    public void Setup(ChooseScene.ChooseLabel label, ChooseController2 controller, float y)
     {
         scene = label.nextScene;
         textMesh.text = label.text;
         this.controller = controller;
 
         Vector3 position = textMesh.rectTransform.localPosition;
-        position.y = 0;
-        position.x = x;
+        position.y = y;
         textMesh.rectTransform.localPosition = position;
         selectedAnswer = label.text;
     }
