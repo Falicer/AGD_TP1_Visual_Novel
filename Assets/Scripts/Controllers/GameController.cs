@@ -339,7 +339,7 @@ public class GameController : MonoBehaviour
                     bottomBar3.ClearText();
                 }
 
-    	        if(storyScene.background.ToString().Contains("Photo") || storyScene.background.ToString().Contains("photo"))
+    	        if(storyScene.background.ToString().Contains("Bulletstorm") || storyScene.background.ToString().Contains("bulletstorm"))
                 {
                     Choose2.SetActive(false); 
                 }else{
