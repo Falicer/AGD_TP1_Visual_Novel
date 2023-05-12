@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WalkingDogsDay7
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hey Rosa!
+  - text: Hey Rosa! What's up?
     speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
@@ -33,7 +33,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 135000b4e36b2214987c2076f96c9939, type: 3}
-  - text: Oh hi Chad! What are you doing out here?
+  - text: Hey Chad..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
@@ -41,6 +41,11 @@ MonoBehaviour:
       actionType: 0
       coords: {x: 0, y: 200}
       moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oh, nothing.. What are you doing here?
+    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Just running a few miles, I\u2019ve got to keep myself moving haha."
@@ -53,7 +58,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Yeah how else are you supposed to keep those muscles.
+  - text: Yeah how else are you supposed to keep those muscles?
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
@@ -113,7 +118,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You walk away quickly. The dogs are having a hard time keeping up
+  - text: You walk away quickly. The dogs are having a hard time keeping up.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
