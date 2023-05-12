@@ -19,7 +19,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
     sound: {fileID: 0}
-  - text: <i>Why is life so unfair? Why doesn't mom have any time for me?</i>
+  - text: <i>Why is life so unfair? Why doesn't mom have any time for me?
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
