@@ -22,7 +22,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 097f2c81a19fe86419e0d562a225b9aa, type: 3}
   - text: How was your day?
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:

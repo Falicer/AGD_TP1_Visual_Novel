@@ -32,7 +32,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 5dfb838bc4721cb48bba0f5b44f3d751, type: 3}
   - text: Here you go. Try to hold onto them until you get to your class.
     speaker: {fileID: 11400000, guid: f97ba06b72ecb4f48b8572e5e6ee1077, type: 2}
     actions:
