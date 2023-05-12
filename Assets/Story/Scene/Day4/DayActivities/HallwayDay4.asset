@@ -29,7 +29,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "<i>Ah, that\u2019s the guy who called me an idiot yesterday.</i>"
+  - text: "<i>Ah, that\u2019s the guy who called me an idiot yesterday."
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
