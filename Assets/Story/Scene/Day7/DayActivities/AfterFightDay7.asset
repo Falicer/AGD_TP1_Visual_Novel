@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AfterFightDay7
   m_EditorClassIdentifier: 
   sentences:
-  - text: You slam the door and run downstairs. You grab your shoes and are out of
-      the door quickly. You do need a breath of fresh air now.
+  - text: You slam the door and run downstairs. You get the dogs and head outside
+      as fast as you can.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
