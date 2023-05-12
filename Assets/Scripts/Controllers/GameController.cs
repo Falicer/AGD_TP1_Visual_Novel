@@ -319,8 +319,6 @@ public class GameController : MonoBehaviour
                     BottomBar2.SetActive(true);
                     BottomBar.SetActive(false);
                     BottomBar3.SetActive(false);
-                    Choose2.SetActive(true); 
-                    Choose.SetActive(false); 
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
@@ -328,8 +326,6 @@ public class GameController : MonoBehaviour
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(false);
                     BottomBar3.SetActive(true);
-                    Choose2.SetActive(true); 
-                    Choose.SetActive(false); 
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
@@ -338,12 +334,18 @@ public class GameController : MonoBehaviour
                     BottomBar2.SetActive(false);
                     BottomBar.SetActive(true);
                     BottomBar3.SetActive(false);
-                    Choose2.SetActive(false); 
-                    Choose.SetActive(true);
                     bottomBar2.ClearText();
                     bottomBar.ClearText();
                     bottomBar3.ClearText();
                 }
+
+    	        if(storyScene.background.ToString().Contains("Chat") || storyScene.background.ToString().Contains("chat"))
+                {
+                    Choose2.SetActive(false); 
+                }else{
+                    Choose.SetActive(true);
+                }
+
                 bottomBar.Show();
                 yield return new WaitForSeconds(1f);
                 //ClearLog();
