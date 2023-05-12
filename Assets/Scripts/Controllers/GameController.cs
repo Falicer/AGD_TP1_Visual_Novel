@@ -302,7 +302,7 @@ public class GameController : MonoBehaviour
             }else{
                 bottomBar.Hide();
             }
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
         }
         if (scene is StoryScene)
         {
@@ -347,7 +347,7 @@ public class GameController : MonoBehaviour
                 }
 
                 bottomBar.Show();
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(0.5f);
                 //ClearLog();
                 //Debug.Log(storyScene.background.ToString());
             }
