@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Well played everyone!
     speaker: {fileID: 11400000, guid: 5824cec66826d5d41a2756c7c0a22128, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   - text: Yeah GGWP!!
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}

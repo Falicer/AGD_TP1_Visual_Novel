@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: ChatgameDay2
   m_EditorClassIdentifier: 
   sentences:
-  - text: You play a few games together.
+  - text: You play a few games of Bulletstorm with Wolff.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c4142c16dc2ac74419882ffa2c004655, type: 3}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
-  nextScene: {fileID: 11400000, guid: 9f6abd736de0bcf43bab85eff1ce5c04, type: 2}
+  background: {fileID: 21300000, guid: 873f623ac61d1524bb741dfc9cac7514, type: 3}
+  nextScene: {fileID: 11400000, guid: 654eab3f6e5b90f45b69d905cf5e213b, type: 2}

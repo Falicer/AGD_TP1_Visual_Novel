@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4596b6d280e0176409c052788ae1c553, type: 3}
-  m_Name: ChatInterludeDay3
+  m_Name: StartGamingDay7
   m_EditorClassIdentifier: 
   sentences:
-  - text: You play a handful of games with Wolff.
+  - text: You start up Bulletstorm and play together.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 8300000, guid: c4142c16dc2ac74419882ffa2c004655, type: 3}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 873f623ac61d1524bb741dfc9cac7514, type: 3}
-  nextScene: {fileID: 11400000, guid: 654eab3f6e5b90f45b69d905cf5e213b, type: 2}
+  nextScene: {fileID: 11400000, guid: 9819d759a057fc64296900d47731ca98, type: 2}

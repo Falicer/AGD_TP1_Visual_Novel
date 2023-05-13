@@ -13,15 +13,10 @@ MonoBehaviour:
   m_Name: PlaySomeGamesDay7
   m_EditorClassIdentifier: 
   sentences:
-  - text: "You\u2019re playing Bulletstorm with Wolff. "
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: "You\u2019ve played so many games that it\u2019s already afternoon now."
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 9944cfadcc924bc4f8dd5d8e3a6b9f5c, type: 3}
     sound: {fileID: 0}
   - text: You take a break from gaming for a little bit.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
