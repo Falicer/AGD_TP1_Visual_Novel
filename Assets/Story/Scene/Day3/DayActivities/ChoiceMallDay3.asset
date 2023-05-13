@@ -31,12 +31,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: It suits you! You should totally get it.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-      spriteIndex: 3
-      actionType: 0
-      coords: {x: 0, y: 200}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Time passes quickly while shopping. It's lots of fun.

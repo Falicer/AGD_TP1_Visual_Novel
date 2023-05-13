@@ -24,7 +24,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "<i>I\u2019ve got a busy day today, you have to make your own breakfast.
-      Let's talk later tonight. Xoxo"
+      Let's talk later tonight."
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions: []
     music: {fileID: 0}

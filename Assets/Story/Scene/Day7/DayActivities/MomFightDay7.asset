@@ -22,7 +22,7 @@ MonoBehaviour:
       coords: {x: 600, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 682028e757d9f524a8b9eae8b61ff996, type: 3}
   - text: 'Not right now, I''m in the middle of a game. '
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:

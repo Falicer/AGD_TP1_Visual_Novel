@@ -13,15 +13,20 @@ MonoBehaviour:
   m_Name: WakeupDay3
   m_EditorClassIdentifier: 
   sentences:
+  - text: Your phone alarm goes off.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: cd98f66e1c8bb07459ac38aee512c119, type: 3}
   - text: <i>Another day begins..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You head downstairs quickly.
+  - text: You roll out of bed, struggling to keep your eyes open.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 93420c65c918c3640880399bba9e7365, type: 3}
+  background: {fileID: 21300000, guid: 16bdbc02ef3ff194184cfcbd3f96065a, type: 3}
   nextScene: {fileID: 11400000, guid: c6054c29de092344bb42304e0c7889f8, type: 2}

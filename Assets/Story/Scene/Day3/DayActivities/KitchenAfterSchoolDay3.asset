@@ -13,11 +13,6 @@ MonoBehaviour:
   m_Name: KitchenAfterSchoolDay3
   m_EditorClassIdentifier: 
   sentences:
-  - text: You see your mother when you come home.
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: "Hey honey, I\u2019m on the phone with work for a bit. You can just grab
       a plate of lasagna from the oven."
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
@@ -28,7 +23,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 682028e757d9f524a8b9eae8b61ff996, type: 3}
   - text: Oh okay. Thanks mom.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []

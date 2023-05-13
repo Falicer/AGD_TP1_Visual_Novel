@@ -27,7 +27,7 @@ MonoBehaviour:
       coords: {x: 200, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 7ff84a6f77bb45e41b971ec919f344e9, type: 3}
   - text: Hi Mimi!
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:

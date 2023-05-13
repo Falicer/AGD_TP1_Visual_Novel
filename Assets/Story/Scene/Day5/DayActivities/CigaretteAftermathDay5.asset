@@ -15,12 +15,7 @@ MonoBehaviour:
   sentences:
   - text: A cigarette huh, you could get in a lot of trouble!
     speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-      spriteIndex: 2
-      actionType: 2
-      coords: {x: 0, y: 200}
-      moveSpeed: 0.5
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Detention, after the last period. I\u2019ll see you there."
@@ -29,7 +24,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 2
       actionType: 0
-      coords: {x: 0, y: 200}
+      coords: {x: -300, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -39,7 +34,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 0
       actionType: 0
-      coords: {x: 0, y: 200}
+      coords: {x: -300, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -49,7 +44,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 0
       actionType: 0
-      coords: {x: 0, y: 200}
+      coords: {x: -300, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -59,7 +54,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 0
       actionType: 0
-      coords: {x: 0, y: 200}
+      coords: {x: -300, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -69,7 +64,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 1
       actionType: 0
-      coords: {x: 0, y: 200}
+      coords: {x: -300, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
@@ -79,7 +74,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 1
       actionType: 3
-      coords: {x: 0, y: 200}
+      coords: {x: -300, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}

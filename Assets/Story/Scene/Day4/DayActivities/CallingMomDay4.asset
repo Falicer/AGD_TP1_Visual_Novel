@@ -22,7 +22,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 9ee9ce13dae0fc34198c7c32f0759538, type: 3}
   - text: Oh okay. Sure.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
@@ -32,7 +32,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 9ee9ce13dae0fc34198c7c32f0759538, type: 3}
   - text: Yeah alright, I'll see you.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
@@ -42,6 +42,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 9ee9ce13dae0fc34198c7c32f0759538, type: 3}
   background: {fileID: 21300000, guid: 4fe219a77138cde45bb79fdabebbe1cb, type: 3}
   nextScene: {fileID: 11400000, guid: c1cefcf65d7202042ba441f5729e4760, type: 2}

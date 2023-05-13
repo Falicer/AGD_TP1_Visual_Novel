@@ -27,13 +27,13 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 682028e757d9f524a8b9eae8b61ff996, type: 3}
   - text: It's fine mom.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I just want you to be safe honey.
+  - text: I just want you to understand..
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions: []
     music: {fileID: 0}

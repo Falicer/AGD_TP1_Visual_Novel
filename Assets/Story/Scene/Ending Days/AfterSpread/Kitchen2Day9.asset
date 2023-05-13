@@ -22,7 +22,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 682028e757d9f524a8b9eae8b61ff996, type: 3}
   - text: You start crying and run upstairs hide in your bed.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions:

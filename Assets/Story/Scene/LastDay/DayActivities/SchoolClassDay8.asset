@@ -18,8 +18,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: <i>It's hard to concentrate.. I don't understand why mom is freaking out
-      about Wolff.
+  - text: <i>It's hard to concentrate.. I don't understand why mom is freaking out.
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
     music: {fileID: 0}

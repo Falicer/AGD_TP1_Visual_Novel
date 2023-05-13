@@ -58,7 +58,7 @@ MonoBehaviour:
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 0948474d95b70074abdcb370c0c0fd49, type: 3}
   - text: "That\u2019s very uncalled for. Stop laughing."
     speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
     actions:
