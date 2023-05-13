@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
+  m_Name: ChooseSmoke-2
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Shoot into the smoke
+    nextScene: {fileID: 11400000, guid: a8b9956b79280834095594071202ede4, type: 2}
+  - text: Run away
+    nextScene: {fileID: 11400000, guid: 3859332442600044f84950c250b915a5, type: 2}
+  - text: Walk towards the smoke
+    nextScene: {fileID: 11400000, guid: 79af303dc38d4a74089b0d3e90eb9c14, type: 2}

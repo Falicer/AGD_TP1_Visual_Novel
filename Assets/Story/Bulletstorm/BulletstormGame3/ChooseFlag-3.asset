@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
+  m_Name: ChooseFlag-3
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Capture it
+    nextScene: {fileID: 11400000, guid: c463f800484b9274ab52f4dc6f2b973f, type: 2}
+  - text: Hide nearby
+    nextScene: {fileID: 11400000, guid: 3ea5eedfaae521744b0e8457c39ed0fe, type: 2}

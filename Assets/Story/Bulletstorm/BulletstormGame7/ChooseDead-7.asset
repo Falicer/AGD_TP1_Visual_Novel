@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc92d01237ffa245be0e32274e708b4, type: 3}
+  m_Name: ChooseDead-7
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Loot his body
+    nextScene: {fileID: 11400000, guid: faa722a61925f7448bc19d7e72150c23, type: 2}
+  - text: Hide nearby
+    nextScene: {fileID: 11400000, guid: 30c0815dbd4191f47bd8778b8fb3f565, type: 2}
+  - text: Shoot the doorway
+    nextScene: {fileID: 11400000, guid: 09169e42b15ae594bb80c0303be96344, type: 2}
