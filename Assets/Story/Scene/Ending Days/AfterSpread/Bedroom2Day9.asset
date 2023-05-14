@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Bedroom2Day9
   m_EditorClassIdentifier: 
   sentences:
+  - text: As soon as you fall on your bed your mom walks into your room.
+    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Honey what's wrong?
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
@@ -43,7 +48,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It's been hard on me too. What happened darling?
+  - text: I know it's been hard. But tell me what happened.
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
@@ -133,7 +138,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I'm not mad. Let's go to the police, maybe they can do something for us.
+  - text: I'm not mad. Let's go to the police, maybe they will know what to do.
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
@@ -143,7 +148,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You're not alone, I'm with you. We're in this together.
+  - text: You're not alone, I'm with you. We'll get through this together.
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
