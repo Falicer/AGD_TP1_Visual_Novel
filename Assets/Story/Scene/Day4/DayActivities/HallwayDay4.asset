@@ -17,7 +17,7 @@ MonoBehaviour:
       for the next few classes."
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 2a220835f74030847b2a6465684ffbd1, type: 3}
     sound: {fileID: 0}
   - text: There she is!
     speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}

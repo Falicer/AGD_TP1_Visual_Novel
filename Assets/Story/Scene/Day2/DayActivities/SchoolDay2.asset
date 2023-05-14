@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: For today's assignment you are going to work in pairs.
     speaker: {fileID: 11400000, guid: 5e56a5c0288644d448fc62e099757d5f, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 2a220835f74030847b2a6465684ffbd1, type: 3}
     sound: {fileID: 0}
   - text: You look around the room. Everyone is already grouped up.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}

@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: "While you\u2019re arriving outside, you hear the bell ring."
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 2a220835f74030847b2a6465684ffbd1, type: 3}
     sound: {fileID: 8300000, guid: cd080b11ec6a8e14db450376b06ceb1e, type: 3}
   background: {fileID: 21300000, guid: 09f7ab188cbcde34480e64e338cdd147, type: 3}
   nextScene: {fileID: 11400000, guid: 7673c27019801174b836131ea20934ac, type: 2}

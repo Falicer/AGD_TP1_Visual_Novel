@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: The bell rings while you're still outside.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 2a220835f74030847b2a6465684ffbd1, type: 3}
     sound: {fileID: 8300000, guid: cd080b11ec6a8e14db450376b06ceb1e, type: 3}
   - text: <i>Oh! I'm just on time!
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
