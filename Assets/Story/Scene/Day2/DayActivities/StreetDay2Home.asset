@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: You finally head home.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 841be7d0276607849b30dcb4327cfabd, type: 3}
     sound: {fileID: 0}
   - text: You walk quickly as the wind picks up behind you.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}

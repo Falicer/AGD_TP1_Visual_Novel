@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: <i>Phew, just made it..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: 9944cfadcc924bc4f8dd5d8e3a6b9f5c, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Hey Rosa!
     speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
