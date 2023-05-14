@@ -24,8 +24,8 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You left school and started using drugs to numb the pain she feels from
-      losing control over her life.
+  - text: You left school and started using drugs to numb the pain you feel from
+      losing control over your life.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
