@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: The mall is quite busy. That is to be expected on a saturday...
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 75b090c82919b10418be4f9c492a54d9, type: 3}
     sound: {fileID: 0}
   - text: ' You look around different stores. Your mom keeps showing you clothes
       that are totally not your style.'
