@@ -17,6 +17,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: d37030f139f3d8947a42e50d28233319, type: 3}
   background: {fileID: 21300000, guid: cdf6cf586751b3c4f8f32745462272fb, type: 3}
   nextScene: {fileID: 11400000, guid: 2cd715a9c5175c34095ba7465f36e0c3, type: 2}
