@@ -23,7 +23,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 8300000, guid: 682028e757d9f524a8b9eae8b61ff996, type: 3}
-  - text: 'Good morning! '
+  - text: 'Good morning mom! '
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
@@ -43,7 +43,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Thanks for the food Mom, I'm gonna head to school!
+  - text: Yum! Thanks Mom. I'm gonna head out!
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
@@ -73,7 +73,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I've packed your lunch, it's in your backpack!
+  - text: Oh and I've packed your lunch, it's in your backpack!
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}

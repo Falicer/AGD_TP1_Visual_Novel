@@ -19,12 +19,6 @@ MonoBehaviour:
     actions: []
     music: {fileID: 8300000, guid: 9944cfadcc924bc4f8dd5d8e3a6b9f5c, type: 3}
     sound: {fileID: 8300000, guid: 01b33fd6b335e094399e7fd31fe0a9a0, type: 3}
-  - text: "It\u2019s your first day at Woodland High today. It\u2019s spring time,
-      so the kids at school already know each other pretty well."
-    speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: The alarm on your phone rings.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []

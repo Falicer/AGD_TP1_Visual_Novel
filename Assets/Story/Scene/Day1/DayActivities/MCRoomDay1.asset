@@ -13,11 +13,6 @@ MonoBehaviour:
   m_Name: MCRoomDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: I guess I'll get out now..
-    speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: You throw the blankets off you and make your way to your closet.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []

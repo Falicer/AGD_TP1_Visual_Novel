@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MCSnoozeRoomDay1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Rosa? Hurry up! You're gonna be late!
+  - text: Rosa are you awake yet? Hurry up! You're gonna be late for your first day!
     speaker: {fileID: 11400000, guid: 7b66ef7eef85210428900a347764d49a, type: 2}
     actions: []
     music: {fileID: 0}
