@@ -16,7 +16,12 @@ MonoBehaviour:
   - text: You go to the mall with Mimi. There's a few people shopping but it's not
       very busy.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 8300000, guid: 75b090c82919b10418be4f9c492a54d9, type: 3}
     sound: {fileID: 0}
   - text: I like this top!
@@ -24,7 +29,7 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 3
-      actionType: 1
+      actionType: 0
       coords: {x: 0, y: 200}
       moveSpeed: 0
     music: {fileID: 0}

@@ -17,7 +17,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-      spriteIndex: 0
+      spriteIndex: 1
       actionType: 1
       coords: {x: 0, y: 200}
       moveSpeed: 0
@@ -25,7 +25,12 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: 7ff84a6f77bb45e41b971ec919f344e9, type: 3}
   - text: Hi Mimi...
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What's up? You seem down.
@@ -40,12 +45,22 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: I just got mocked by the whole class..
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 2
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: What?! Screw them. Who cares what they think anyway.
     speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 2
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yeah I guess...
@@ -65,13 +80,18 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Skip our classes? Won't we get in trouble?
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
+      spriteIndex: 2
+      actionType: 0
+      coords: {x: 0, y: 200}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Would you rather have another class with that group?
     speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
     actions:
-    - speaker: {fileID: 0}
+    - speaker: {fileID: 11400000, guid: 0ccd1713d2f95944586b73235a859b6a, type: 2}
       spriteIndex: 2
       actionType: 0
       coords: {x: 0, y: 200}

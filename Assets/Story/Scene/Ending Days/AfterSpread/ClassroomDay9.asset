@@ -32,7 +32,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 3b9c9d173e00df94ebac25880eb70135, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
-      spriteIndex: 0
+      spriteIndex: 2
       actionType: 0
       coords: {x: 0, y: 200}
       moveSpeed: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 39484f8e729f033479b73d9f4e582ae2, type: 2}
-      spriteIndex: 0
+      spriteIndex: 1
       actionType: 0
       coords: {x: 0, y: 200}
       moveSpeed: 0
