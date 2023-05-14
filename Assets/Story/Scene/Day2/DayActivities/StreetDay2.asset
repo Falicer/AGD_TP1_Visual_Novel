@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: You walk to school while cherry blossom petals fly around you.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 841be7d0276607849b30dcb4327cfabd, type: 3}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: ea798296753b31a43adc71cbcd496e64, type: 3}
   nextScene: {fileID: 11400000, guid: 5829f97a89cc1474691dce87efbbe8ab, type: 2}

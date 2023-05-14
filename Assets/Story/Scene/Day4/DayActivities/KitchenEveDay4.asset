@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Mom, are you here?
     speaker: {fileID: 11400000, guid: fc24fd7666f20c54abf399df35b93c92, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: a3289dc0e6400a946a676745c541a92a, type: 3}
   nextScene: {fileID: 11400000, guid: ccfcf6c6a9cdf904ab28e0b6c54c18a3, type: 2}

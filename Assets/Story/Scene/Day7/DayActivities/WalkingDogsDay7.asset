@@ -21,7 +21,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 0, y: 200}
       moveSpeed: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 841be7d0276607849b30dcb4327cfabd, type: 3}
     sound: {fileID: 8300000, guid: 84edc80f94b436b4b8d053ee85afd179, type: 3}
   - text: Woof woof woof!
     speaker: {fileID: 11400000, guid: 50d6144b02c04c140a30c29ee1872155, type: 2}
