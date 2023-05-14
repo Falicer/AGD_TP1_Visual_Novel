@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: You close the laptop. You feel a little bit of relief.
     speaker: {fileID: 11400000, guid: 00708e0075af8664d97397d2be6338d4, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: d23fc16c2fc583b4b9b335a0fe0ce30d, type: 3}
+    music: {fileID: 8300000, guid: c6a6773b7f8efe343b71ced799517bf5, type: 3}
     sound: {fileID: 0}
   - text: With a thud you fall into the soft sheets of your bed. You wrap them around
       you.

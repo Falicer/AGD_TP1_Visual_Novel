@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Hey! You on?
     speaker: {fileID: 11400000, guid: 17e3e8cecf41b1240a3600abb6784eed, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 0e6a8c369a8b206489c0bcce6b455cf3, type: 3}
     sound: {fileID: 0}
   - text: Hi yeah
     speaker: {fileID: 11400000, guid: d3c98710b9d416845ad809f11ef5bc02, type: 2}

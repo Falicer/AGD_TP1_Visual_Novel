@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: I can't play guys, I'm drowning in homework rn
     speaker: {fileID: 11400000, guid: a2a9a0573c1259144890273584637fff, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 0e6a8c369a8b206489c0bcce6b455cf3, type: 3}
     sound: {fileID: 8300000, guid: 96e28de12cbe93a4daf441ae25b07cae, type: 3}
   - text: Yo me too man i got other plans
     speaker: {fileID: 11400000, guid: 718690641faa0ac498feeb6adef58f12, type: 2}
